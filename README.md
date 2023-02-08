@@ -1,4 +1,4 @@
-Programaciónn de Dispositivos Móviles 📱
+Programación de Dispositivos Móviles 📱
 =========================================
 
 Curso Completo 2023-2
