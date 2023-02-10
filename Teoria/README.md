@@ -1,4 +1,4 @@
-# 📒 Teoría - PDM 2023-2
+# 📌 Teoría - PDM 2023-2
 
 ### Teoría dada durante el curso:
 
