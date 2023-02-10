@@ -1,6 +1,6 @@
 # 📂 Presentaciones del Profesor
 
-### índice:
+### Índice:
 
 1. Introducción
 2. Sistemas Operativos
