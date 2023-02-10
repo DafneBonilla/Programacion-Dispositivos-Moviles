@@ -1,6 +1,6 @@
-# 📒 Teoría - PDM 2023-2
+# 📒 Presentaciones del Profesor
 
-### Teoría dada durante el curso:
+### índice:
 
-> - Presentaciones y notas de clases y ayudantías.
-> - Código de Android Studio y Kotlin.
+1. Introducción
+2. Sistemas Operativos
