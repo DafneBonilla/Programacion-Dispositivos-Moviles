@@ -1,6 +1,8 @@
 Programación de Dispositivos Móviles 📱
 =========================================
 
+<p align="center"><img width="200" src="src/Logo-Android.svg" alt="Logo de Android Studio"></p>
+
 Curso Completo 2023-2
 -------------------------------------------
 
