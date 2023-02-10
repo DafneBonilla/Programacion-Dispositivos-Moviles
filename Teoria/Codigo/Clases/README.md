@@ -1,4 +1,4 @@
-# 📂 Presentaciones de clases
+# 📂 Código de clases
 
 ### Índice:
 
