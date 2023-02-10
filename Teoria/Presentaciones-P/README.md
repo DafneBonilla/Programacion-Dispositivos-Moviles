@@ -1,4 +1,4 @@
-# 📒 Presentaciones del Profesor
+# 📂 Presentaciones del Profesor
 
 ### índice:
 
