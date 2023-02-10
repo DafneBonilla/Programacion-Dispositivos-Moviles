@@ -1,6 +1,6 @@
-# 📒 Teoría - PDM 2023-2
+# 📂 Presentaciones de los Ayudantes
 
-### Teoría dada durante el curso:
+### Índice:
 
-> - Presentaciones y notas de clases y ayudantías.
-> - Código de Android Studio y Kotlin.
+1. 
+2. 
