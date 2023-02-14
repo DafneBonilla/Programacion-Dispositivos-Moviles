@@ -1,6 +1,6 @@
-# 📂 Presentaciones de clases
+# 📂 Ejercicios de Práctica
 
 ### Índice:
 
-1. Introducción
-2. Sistemas Operativos Móviles
+1. Hello World
+2. 
