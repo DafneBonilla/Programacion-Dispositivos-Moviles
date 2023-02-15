@@ -1,6 +1,8 @@
-# 📒 Teoría - PDM 2023-2
+# 💻 Prácticas </> 
 
-### Teoría dada durante el curso:
+## Prácticas realizadas durante el curso:
 
-> - Presentaciones y notas de clases y ayudantías.
-> - Código de Android Studio y Kotlin.
+> - Práctica 01: 
+> - Práctica 02: 
+> - Práctica 03: 
+> - Práctica 04: 
