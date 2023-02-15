@@ -1,4 +1,4 @@
-# 💻 Prácticas </> - PDM 2023-2
+# 💻 Prácticas </> 
 
 ### Prácticas realizadas durante el curso:
 
