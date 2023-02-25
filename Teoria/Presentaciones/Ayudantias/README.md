@@ -2,5 +2,5 @@
 
 ### Índice:
 
-1. 
-2. 
+1. Cosas Básicas de Kotlin
+2. Introducción a Kotlin
