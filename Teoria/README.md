@@ -4,3 +4,4 @@
 
 > - Presentaciones y notas de clases y ayudantías.
 > - Código de Android Studio y Kotlin.
+> - Libros usados como bibliografía del curso.
