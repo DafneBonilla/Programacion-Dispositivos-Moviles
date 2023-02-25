@@ -2,6 +2,6 @@
 
 ### Teoría dada durante el curso:
 
-> - Presentaciones y notas de clases y ayudantías.
+> - Presentaciones de clases y ayudantías.
 > - Código de Android Studio y Kotlin.
-> - Libros usados como bibliografía del curso.
+> - Bibliografía del curso, textos y libros.
