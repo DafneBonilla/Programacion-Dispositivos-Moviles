@@ -15,4 +15,4 @@ Curso Completo 2023-2
 * Jesús Iván Saavedra Martínez
 * Fernando Antonio Sánchez Montoya
 
-Prácticas y teoría realizadas durante el curso de Programación de Dispositivos Móviles.
+Prácticas, tareas y teoría realizadas durante el curso de Programación de Dispositivos Móviles.
