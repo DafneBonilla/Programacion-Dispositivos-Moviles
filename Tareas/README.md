@@ -1,8 +1,6 @@
-# 💻 Prácticas </> 
+# 📝 Tareas 
 
-### Prácticas realizadas durante el curso:
+## Tareas realizadas durante el curso:
 
-> - Práctica 01: 
-> - Práctica 02: 
-> - Práctica 03: 
-> - Práctica 04: 
+> - Tarea 01: Aplicación "Hola a Todos"
+> - Tarea 02:
