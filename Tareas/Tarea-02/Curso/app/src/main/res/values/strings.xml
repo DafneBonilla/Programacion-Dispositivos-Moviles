@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Curso</string>
+    <string name="txt_bienvenida">Bienvenido</string>
+    <string name="bt_login">Iniciar sesión</string>
+    <string name="txt_nombre">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="rb_mantenerSesion">Mantener Sesion Abierta</string>
+</resources>
