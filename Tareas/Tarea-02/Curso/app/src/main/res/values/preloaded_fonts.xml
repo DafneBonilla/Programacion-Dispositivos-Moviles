@@ -3,8 +3,10 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/archivo</item>
         <item>@font/asap</item>
+        <item>@font/assistant</item>
         <item>@font/baloo_paaji_2</item>
         <item>@font/barlow_thin</item>
+        <item>@font/chivo</item>
         <item>@font/roboto</item>
         <item>@font/roboto_bold</item>
         <item>@font/roboto_thin</item>
