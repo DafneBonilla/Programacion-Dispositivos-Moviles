@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_app"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:fontFamily="@font/roboto"
+        android:text="@string/TituloElige"
+        android:textColor="#101F4A"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/constraint_PizzaHawaiana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline" />
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint_PizzaHawaiana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintBottom_toTopOf="@id/constraint_PizzaPeperoni">
+
+        <TextView
+            android:id="@+id/textView_TituloPizzaHawaiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/TituloPiiza1"
+            android:textColor="#101F4A"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageButton_PizzaHawaiana"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaHawaiana"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana"
+            app:srcCompat="@drawable/pizza1" />
+
+        <Spinner
+            android:id="@+id/cantidad_PizzaHawaiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/cantidad_pizza"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textView_PrecioHawaiana"
+            app:layout_constraintStart_toEndOf="@id/imageButton_PizzaHawaiana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana" />
+
+
+        <TextView
+            android:id="@+id/textView_PrecioHawaiana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/PrecioPiiza1"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaHawaiana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint_PizzaPeperoni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@id/constraint_PizzaQueso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaHawaiana">
+
+        <TextView
+            android:id="@+id/textView_TituloPizzaPeperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="@string/TituloPiiza2"
+            android:textColor="#101F4A"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_pizzaPeperoni"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaPeperoni"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaPeperoni"
+            app:srcCompat="@drawable/pizza2" />
+
+        <Spinner
+            android:id="@+id/cantidad_PizzaPeperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/cantidad_pizza"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textView_precioPeperoni"
+            app:layout_constraintStart_toEndOf="@id/imageView_pizzaPeperoni"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaPeperoni" />
+
+        <TextView
+            android:id="@+id/textView_precioPeperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PrecioPiiza2"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaPeperoni"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaPeperoni" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint_PizzaQueso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="60dp"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaPeperoni">
+
+        <TextView
+            android:id="@+id/textView_TituloPizzaQueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="@string/TituloPiiza3"
+            android:textColor="#101F4A"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_pizzaQueso"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaQueso"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaQueso"
+            app:srcCompat="@drawable/pizza3" />
+
+        <Spinner
+            android:id="@+id/cantidad_PizzaQueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/cantidad_pizza"
+            android:minWidth="50sp"
+            android:minHeight="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textView_PrecioQueso"
+            app:layout_constraintStart_toEndOf="@id/imageView_pizzaQueso"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaQueso" />
+
+        <TextView
+            android:id="@+id/textView_PrecioQueso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/PrecioPiiza3"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaQueso"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaQueso" />
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/BotonOrdenar"
+        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaQueso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18"
+        app:layout_constraintGuide_begin="658dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,8 +1,42 @@
 <resources>
     <string name="app_name">Curso</string>
     <string name="txt_bienvenida">Bienvenido</string>
+    <string name="txt_bienvenido_login">¡Bienvenido a Bordo¡</string>
+    <string name="txt_iniciar_sesion">Iniciar Sesión</string>
+    <string name="txt_registrarse">Registrarse</string>
     <string name="bt_login">Iniciar sesión</string>
     <string name="txt_nombre">Usuario</string>
     <string name="txt_password">Contraseña</string>
     <string name="rb_mantenerSesion">Mantener Sesion Abierta</string>
+    <string name="txt_mipedido">MI PEDIDO</string>
+    <string name="txt_direccion">Dirección de entrega:</string>
+    <string name="txt_dirInfo">Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX.</string>
+    <string name="txt_numPedido">Número de pedido:</string>
+    <string name="txt_numP">012124084321</string>
+    <string name="txt_total">Total:</string>
+    <string name="txt_vTotal">$124.89</string>
+    <string name="txt_horaEstimada">14:23pm</string>
+    <string name="txt_hora">Hora de entrega:</string>
+    <string name="txt_detallesP">VER DETALLES DE PEDIDO</string>
+    <string name="txt_confirmar">CONFIRMAR PEDIDO</string>
+    <string name="txt_cancelar">CANCELAR PEDIDO</string>
+    <string name="txt_envio">¡EL ENVIO ES GRATIS!</string>
+    <string name="txt_propina">Propina:</string>
+    <string name="txt_vPropina">$25.00</string>
+    <string-array name="cantidad_pizza">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="TituloPiiza1">Pizza Italiana</string>
+    <string name="TituloPiiza2">Pizza Salami</string>
+    <string name="TituloPiiza3">Pizza Vegetariana</string>
+    <string name="PrecioPiiza1">$250</string>
+    <string name="PrecioPiiza2">$300</string>
+    <string name="PrecioPiiza3">$350</string>
+    <string name="BotonOrdenar">Ordenar</string>
+    <string name="TituloElige">Elige tu Pizza:</string>
 </resources>
