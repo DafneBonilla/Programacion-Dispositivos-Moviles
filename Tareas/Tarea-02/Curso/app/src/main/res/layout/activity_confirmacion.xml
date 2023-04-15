@@ -16,212 +16,171 @@
         android:layout_marginTop="28dp"
         android:text="@string/txt_mipedido"
         android:textColor="#000000"
-        android:textSize="40sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txt_numPedido"
-        android:layout_width="206dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="32dp"
-        android:importantForAccessibility="no"
-        android:text="@string/txt_numPedido"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_num"
-        app:layout_constraintHorizontal_bias="0.727"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_mipedido"
-        tools:ignore="LabelFor,TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/txt_total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:text="@string/txt_total"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_Vtotal"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_propina" />
-
-    <TextView
-        android:id="@+id/txt_horaE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:shadowColor="#000000"
-        android:text="@string/txt_hora"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_hora"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_direccion" />
-
-    <EditText
         android:id="@+id/txt_direccion"
-        android:layout_width="343dp"
-        android:layout_height="112dp"
-        android:layout_marginTop="4dp"
-        android:background="#CACACA"
-        android:ems="10"
-        android:gravity="start|top"
-        android:importantForAutofill="no"
-        android:inputType="textMultiLine"
-        android:shadowColor="#BAB7B7"
-        android:text="@string/txt_dirInfo"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_dirMen"
-        tools:ignore="LabelFor,TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/txt_num"
-        android:layout_width="163dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:background="#CDCBCB"
-        android:importantForAccessibility="no"
-        android:text="@string/txt_numP"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_mipedido"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/txt_hora"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
-        android:text="@string/txt_horaEstimada"
-        android:textColor="#050505"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_direccion" />
-
-    <TextView
-        android:id="@+id/txt_Vtotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="88dp"
-        android:layout_marginRight="88dp"
-        android:text="@string/txt_vTotal"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_vpropina" />
-
-    <TextView
-        android:id="@+id/txt_dirMen"
-        android:layout_width="259dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="368dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="24dp"
+        android:drawableEnd="@drawable/right24px"
         android:text="@string/txt_direccion"
         android:textColor="#000000"
-        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_num"
-        tools:ignore="LabelFor,TextSizeCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_mipedido" />
+
+    <TextView
+        android:id="@+id/txt_userinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_userinfo"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_direccion"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/txt_deriveryM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_deliveryMethod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_userinfo" />
+
+    <TextView
+        android:id="@+id/txt_entrega"
+        android:layout_width="136dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:drawableEnd="@drawable/right24px"
+        android:text="@string/txt_meetAtDoor"
+        android:textColor="#020202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toEndOf="@+id/txt_deriveryM"
+        app:layout_constraintTop_toBottomOf="@+id/txt_direccion" />
+
+    <TextView
+        android:id="@+id/txt_paymentmethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_paymentMethod"
+        android:textColor="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_deriveryM" />
+
+    <TextView
+        android:id="@+id/txt_cash"
+        android:layout_width="75dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:drawableEnd="@drawable/right24px"
+        android:text="@string/txt_cashMethod"
+        android:textColor="#070707"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_entrega" />
+
+    <TextView
+        android:id="@+id/txt_utensils"
+        android:layout_width="369dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/check24px"
+        android:text="@string/txt_utensils"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_paymentmethod" />
+
+    <TextView
+        android:id="@+id/txt_tip"
+        android:layout_width="86dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="12dp"
+        android:drawableEnd="@drawable/infocircle24px"
+        android:text="@string/txt_tip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_utensils" />
+
+    <TextView
+        android:id="@+id/txt_tipM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/txt_tipMessage"
+        android:textColor="#4A4A4A"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tip" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="329dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/txt_detallesP"
-        android:textSize="20sp"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/bt_tip10"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_envio"
-        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_tipM" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:text="@string/txt_confirmar"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="156dp"
+        android:text="@string/bt_tip15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintHorizontal_bias="0.654"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tipM" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
-        android:text="@string/txt_cancelar"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.926"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.098" />
-
-    <TextView
-        android:id="@+id/txt_envio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FDCB78"
-        android:shadowColor="#2196F3"
-        android:text="@string/txt_envio"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/bt_tip20"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.624"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Vtotal"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_tipM" />
 
-    <TextView
-        android:id="@+id/txt_propina"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/txt_propina"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_vpropina"
-        app:layout_constraintHorizontal_bias="0.24"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_horaE" />
-
-    <TextView
-        android:id="@+id/txt_vpropina"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginRight="92dp"
-        android:text="@string/txt_vPropina"
-        android:textColor="#000000"
-        android:textSize="24sp"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:drawableEnd="@drawable/edit_alt24px"
+        android:text="@string/bt_tipOther"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_hora" />
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tipM" />
 
 </android.support.constraint.ConstraintLayout>
