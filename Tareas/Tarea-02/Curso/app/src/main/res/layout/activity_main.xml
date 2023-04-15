@@ -5,25 +5,26 @@
     android:id="@+id/r"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_app"
+    android:background="@drawable/main_app2"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/text_login"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="52dp"
+        android:layout_width="382dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="34dp"
         android:layout_weight="1"
         android:fontFamily="@font/pizzaria"
         android:gravity="center"
         android:text="@string/txt_bienvenido_login"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/button_login"
+        android:textColor="#000000"
+        android:textSize="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_login"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,16 +34,18 @@
         android:layout_height="52dp"
         android:layout_gravity="center"
         android:layout_margin="30dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="68dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_button"
         android:fontFamily="@font/louis_george_rg"
         android:padding="6dp"
         android:text="@string/txt_iniciar_sesion"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button_registro"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -51,16 +54,18 @@
         android:layout_height="52dp"
         android:layout_gravity="center"
         android:layout_margin="30dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="60dp"
         android:layout_weight="1"
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/rounded_button_stroke"
         android:fontFamily="@font/louis_george_rg"
         android:padding="6dp"
         android:text="@string/txt_registrarse"
+        android:textColor="#EE3F16"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <android.support.constraint.Guideline
@@ -68,7 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95"
-        app:layout_constraintGuide_begin="658dp" />
+        app:layout_constraintGuide_begin="715dp"
+        app:layout_constraintGuide_percent="0.92" />
 
 </android.support.constraint.ConstraintLayout>

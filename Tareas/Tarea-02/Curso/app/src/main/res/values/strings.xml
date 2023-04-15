@@ -1,14 +1,16 @@
 <resources>
     <string name="app_name">Curso</string>
-    <string name="txt_bienvenido_login">¡Bienvenido a Bordo¡</string>
+    <string name="txt_bienvenido_login">Bienvenido a Bordo</string>
     <string name="txt_iniciar_sesion">Iniciar Sesión</string>
     <string name="txt_registrarse">Registrarse</string>
     <string name="txt_inicio">Iniciar Sesión</string>
-    <string name="text_continuar">Continuar</string>
-    <string name="text_aviso">Al iniciar sesión aceptas los términos y condiciones y políticas de privacidad.</string>
+    <string name="txt_continuar">Continuar</string>
+    <string name="txt_aviso">Al iniciar sesión aceptas los términos y condiciones y políticas de privacidad.</string>
     <string name="txt_correo">Correo Electrónico</string>
     <string name="txt_password">Contraseña</string>
+    <string name="txt_olvidar_contraseña">¿Olvidó su contraseña?</string>
     <string name="rb_mantenerSesion">Mantener Sesión Abierta</string>
+    <string name="txt_registrarse_inicio_sesion">¿Aún no tienes una cuenta? Registrarse</string>
     <string name="txt_mipedido">MI PEDIDO</string>
     <string name="txt_direccion">Dirección de entrega:</string>
     <string name="txt_dirInfo">Investigación Científica, C.U., Coyoacán, 04510 Ciudad de México, CDMX.</string>
