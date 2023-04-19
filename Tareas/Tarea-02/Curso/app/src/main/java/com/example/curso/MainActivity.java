@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_main);
         /* Interfaz para iniciar sesión */
         //setContentView(R.layout.activity_login);
+        /* Interfaz para registrarse */
+       //setContentView(R.layout.activity_register);
         /* Interfaz de menú */
         //setContentView(R.layout.activity_menu);
         /* Interfaz de Confirmación */

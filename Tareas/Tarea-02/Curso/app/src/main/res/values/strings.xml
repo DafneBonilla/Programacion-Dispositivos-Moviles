@@ -8,9 +8,12 @@
     <string name="txt_aviso">Al iniciar sesión aceptas los términos y condiciones y políticas de privacidad.</string>
     <string name="txt_correo">Correo Electrónico</string>
     <string name="txt_password">Contraseña</string>
+    <string name="txt_name">Nombre</string>
     <string name="txt_olvidar_contraseña">¿Olvidó su contraseña?</string>
     <string name="rb_mantenerSesion">Mantener Sesión Abierta</string>
     <string name="txt_registrarse_inicio_sesion">¿Aún no tienes una cuenta? Registrarse</string>
+    <string name="txt_inicio_sesion_registrarse">¿Ya tienes una cuenta? Iniciar Sesión</string>
+    <string name="txt_contraseña_sugerencia">Ingresa una contraseña que contenga al menos 8 caracteres entre mayúsculas, minúsculas y números.</string>
     <string name="txt_mipedido">Enviar Pedido</string>
     <string name="txt_direccion">Investigación Científica, C.U., Coyoacán, 04510</string>
     <string name="txt_userinfo">Joel Arroyo  +5587675423</string>
@@ -20,6 +23,7 @@
     <string name="txt_cashMethod">Efectivo</string>
     <string name="txt_utensils">Cubiertos y popotes</string>
     <string name="txt_tip">Propina</string>
+    <string name="txt_confirmar">Confirmar</string>
     <string name="txt_tipMessage">Muestra tu apoyo con tu propina. Los mensajeros reciben el 100% de las propinas.</string>
     <string name="bt_tip10">MX$10.00</string>
     <string name="bt_tip15">MX$15.00</string>

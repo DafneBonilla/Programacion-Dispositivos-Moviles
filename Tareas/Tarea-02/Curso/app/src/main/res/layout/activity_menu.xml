@@ -57,6 +57,7 @@
             app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaHawaiana"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/pizza1" />
 
         <Spinner
@@ -231,5 +232,20 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.18"
         app:layout_constraintGuide_begin="658dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="379dp"
+        android:background="@drawable/rounded_button_propina"
+        android:contentDescription="@string/txt_saved"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left24px"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
 </android.support.constraint.ConstraintLayout>
