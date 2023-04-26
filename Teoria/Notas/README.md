@@ -2,12 +2,19 @@
 
 ### Índice:
 
-1. Sistemas numéricos y representación de números en una computadora
-2. Elementos cuantitativos de diseño de computadoras
-3. Lógica digital y diseño de circuitos digitales
-4. El conjunto de instrucciones
-5. La ruta de datos y la microarquitectura
-6. Paralelismo a nivel de instrucción
-7. La jerarquía de memoria y caches
-8. Entrada/Salida y canales
-9. Sistemas de multiprocesadores
+1. Introducción
+2. Sistemas Operativos Móviles
+3. Instalación de Android Studio
+4. Emulador en Android Studio
+5. Hello World en Android Studio
+6. Análisis de App Hello World
+7. Actividades y Arquitectura de Android
+8. Diagrama de Ciclo de Vida
+9. Exportar un APK
+10. Formato APK 
+11. Layouts, Interfaces y Eventos
+12. Componentes de la Vista
+13. Programación de Eventos
+14. 
+15. 
+16. 
