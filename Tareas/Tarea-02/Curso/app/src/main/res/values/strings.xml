@@ -56,4 +56,19 @@
     <string name="PrecioPiiza3">$350</string>
     <string name="BotonOrdenar">Ordenar</string>
     <string name="TituloElige">Elige tu pizza:</string>
+    <string name="bt_drawer_menu">Menu</string>
+    <string name="bt_drawer_main">Principal</string>
+    <string name="bt_drawer_login">Iniciar Sesión</string>
+    <string name="bt_actionbar_register">Registro</string>
+    <string name="bt_actionbar_cart">Pedido</string>
+    <string name="actionbar_test_message">Prueba de ActionBar y Menu Drawer</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

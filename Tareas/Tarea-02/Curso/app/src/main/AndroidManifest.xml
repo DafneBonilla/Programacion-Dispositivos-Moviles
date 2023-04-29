@@ -10,10 +10,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Curso"
-        tools:targetApi="30">
+        tools:targetApi="s">
         <activity
             android:name=".Confirmacion"
+            android:exported="false" />
+        <activity
+            android:name=".ActionBarTest"
             android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
