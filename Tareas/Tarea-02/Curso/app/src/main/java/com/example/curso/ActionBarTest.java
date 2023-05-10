@@ -38,7 +38,7 @@ public class ActionBarTest extends AppCompatActivity {
             return true;
         }
         if(id ==  R.id.menu){
-            Intent intent =  new Intent(this, Menu.class);
+            Intent intent =  new Intent(this, Comanda.class);
             startActivity(intent);
             return true;
         }
