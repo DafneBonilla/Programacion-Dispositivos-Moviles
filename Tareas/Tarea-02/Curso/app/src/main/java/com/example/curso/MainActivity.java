@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         /* Interfaz de menú */
         //setContentView(R.layout.activity_menu);
         /* Interfaz de Confirmación */
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_action_bar_test);
     }
 
 }

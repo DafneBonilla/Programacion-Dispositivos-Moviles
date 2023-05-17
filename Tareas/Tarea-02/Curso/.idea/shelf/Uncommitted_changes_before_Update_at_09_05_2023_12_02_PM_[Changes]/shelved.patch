@@ -1,0 +1,139 @@
+Index: app/src/main/java/com/example/curso/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/curso/MainActivity.java b/app/src/main/java/com/example/curso/MainActivity.java
+--- a/app/src/main/java/com/example/curso/MainActivity.java	
++++ b/app/src/main/java/com/example/curso/MainActivity.java	
+@@ -17,7 +17,7 @@
+         /* Interfaz para iniciar sesión */
+         //setContentView(R.layout.activity_login);
+         /* Interfaz para registrarse */
+-       //setContentView(R.layout.activity_register);
++        //setContentView(R.layout.activity_register);
+         /* Interfaz de menú */
+         //setContentView(R.layout.activity_menu);
+         /* Interfaz de Confirmación */
+Index: ../../Tarea-01/Tarea1/.idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Tarea-01/Tarea1/.idea/gradle.xml b/../../Tarea-01/Tarea1/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	
++++ b/../../Tarea-01/Tarea1/.idea/gradle.xml	
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="testRunner" value="GRADLE" />
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../Tarea-01/Tarea1/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Tarea-01/Tarea1/.idea/vcs.xml b/../../Tarea-01/Tarea1/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/../../Tarea-01/Tarea1/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../Tarea-01/Tarea1/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Tarea-01/Tarea1/.idea/.gitignore b/../../Tarea-01/Tarea1/.idea/.gitignore
+new file mode 100644
+--- /dev/null	
++++ b/../../Tarea-01/Tarea1/.idea/.gitignore	
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: ../../Tarea-01/Tarea1/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Tarea-01/Tarea1/.idea/misc.xml b/../../Tarea-01/Tarea1/.idea/misc.xml
+new file mode 100644
+--- /dev/null	
++++ b/../../Tarea-01/Tarea1/.idea/misc.xml	
+@@ -0,0 +1,9 @@
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	
++++ b/.idea/.gitignore	
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: ../../Tarea-01/Tarea1/.idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Tarea-01/Tarea1/.idea/.name b/../../Tarea-01/Tarea1/.idea/.name
+new file mode 100644
+--- /dev/null	
++++ b/../../Tarea-01/Tarea1/.idea/.name	
+@@ -0,0 +1,1 @@
++My Application
+\ No newline at end of file
+Index: ../../Tarea-01/Tarea1/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../Tarea-01/Tarea1/.idea/compiler.xml b/../../Tarea-01/Tarea1/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	
++++ b/../../Tarea-01/Tarea1/.idea/compiler.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="17" />
++  </component>
++</project>
+\ No newline at end of file
