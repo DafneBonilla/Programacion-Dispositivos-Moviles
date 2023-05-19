@@ -1,27 +1,32 @@
 package com.example.curso;
 
-import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
-
+    private Button login, register;
 
    // @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /* Interfaz de inicio */
-        //setContentView(R.layout.activity_main);
-        /* Interfaz para iniciar sesión */
-        //setContentView(R.layout.activity_login);
-        /* Interfaz para registrarse */
-       //setContentView(R.layout.activity_register);
-        /* Interfaz de menú */
-        //setContentView(R.layout.activity_menu);
-        /* Interfaz de Confirmación */
-        setContentView(R.layout.activity_action_bar_test);
+        setContentView(R.layout.activity_main);
+        this.login = (Button) findViewById(R.id.button_login);
+        this.register = (Button) findViewById(R.id.button_register);
+    }
+
+    public void redirectLogin(View v){
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
+
+    public void redirectRegister(View v){
+        Intent intent = new Intent(this, Register.class);
+        startActivity(intent);
     }
 
 }
