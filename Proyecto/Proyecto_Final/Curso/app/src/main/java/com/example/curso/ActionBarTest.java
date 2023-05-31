@@ -10,7 +10,7 @@ public class ActionBarTest extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_action_bar_test);
+        setContentView(R.layout.activity_menu_drawer);
     }
     /**
      *

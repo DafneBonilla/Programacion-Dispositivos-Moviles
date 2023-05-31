@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Curso" >
         <activity
+            android:name="com.example.curso.MainActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.curso.Confirmacion"
             android:exported="false" />
         <activity
@@ -40,10 +43,6 @@
         <activity
             android:name="com.example.curso.Login"
             android:exported="false" />
-        <activity
-            android:name="com.example.curso.MainActivity"
-            android:exported="false" >
-        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

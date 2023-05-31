@@ -6,14 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/main_app2"
-    android:onClick="redirectRegister"
-    tools:context=".MainActivity">
+    android:onClick="redirectRegisterDrawer"
+    tools:context=".MainActivityDrawer">
 
     <TextView
         android:id="@+id/text_login"
         android:layout_width="384dp"
         android:layout_height="69dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="425dp"
         android:layout_weight="1"
         android:fontFamily="@font/pizzaria"
         android:gravity="center"
@@ -36,7 +36,7 @@
         android:layout_weight="1"
         android:background="@drawable/rounded_button"
         android:fontFamily="@font/louis_george_rg"
-        android:onClick="redirectLogin"
+        android:onClick="redirectLoginDrawer"
         android:padding="6dp"
         android:text="@string/txt_iniciar_sesion"
         android:textColor="#FFFFFF"
@@ -59,7 +59,7 @@
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="@font/louis_george_rg"
-        android:onClick="redirectRegister"
+        android:onClick="redirectRegisterDrawer"
         android:padding="6dp"
         android:text="@string/txt_registrarse"
         android:textColor="#EE3F16"

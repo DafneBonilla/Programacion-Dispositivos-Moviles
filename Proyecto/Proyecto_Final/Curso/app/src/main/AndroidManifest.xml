@@ -12,10 +12,8 @@
         android:theme="@style/Theme.Curso"
         tools:targetApi="s">
         <activity
-            android:name="drawer.MenuInicio"
-            android:exported="false"
-            android:label="@string/title_activity_menu_inicio"
-            android:theme="@style/Theme.Curso.NoActionBar" />
+            android:name=".MainActivity"
+            android:exported="false"></activity>
         <activity
             android:name=".Confirmacion"
             android:exported="false" />
@@ -37,9 +35,6 @@
         <activity
             android:name=".Login"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
