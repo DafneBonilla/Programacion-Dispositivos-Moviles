@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_app2"
+    android:onClick="redirectRegister"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="384dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="328dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/pizzaria"
+        android:gravity="center"
+        android:text="@string/txt_bienvenido_login"
+        android:textColor="#000000"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="254dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="68dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/louis_george_rg"
+        android:onClick="redirectLogin"
+        android:padding="6dp"
+        android:text="@string/txt_iniciar_sesion"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_login" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="254dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_button_stroke"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/louis_george_rg"
+        android:onClick="redirectRegister"
+        android:padding="6dp"
+        android:text="@string/txt_registrarse"
+        android:textColor="#EE3F16"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_login"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="57dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,227 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [com.android.databinding:viewbinding:8.0.2] C:\Users\dafne\.gradle\caches\transforms-3\5e01bab49cfea4f8ead461781eb78488\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dfbbfef6721b7fde195be70fc5c67b46\transformed\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\176e2cb87ca60634b7f06bd4bd6aa64f\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9580e2e2bfcce907899d321cf6f5a6b9\transformed\navigation-fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\53f9a967fbe4d8886ac406b372ab1e09\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9999d8b064ed0aec15c78a6f2d201bf0\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\8b5178ec43d3621b2d7eda6c127c7001\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\5912fd34bcd11a96378d337cb34bf76f\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d6ef6e5043f54bcd33c4844f9677b479\transformed\navigation-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\8127c882e63deaf54c6823edad9d0d99\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9ab05ce1dcc93f3504dd89b06b5f8006\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\19a586c0ffad7f4e60bfbe999b79cfd6\transformed\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f7d1a34efc74dcf1bed32957bac0bf79\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\be9193d8bf8bceee1d9896f452b482e4\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\163de9b8717f6ccbb023046f332a2697\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f0c1ddddaeeb6a0c245d7ff29498efa5\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\000bf074fed85c4be34718ab87355d4b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d973a0641a4fdf3f4290aa4974f1875d\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\728ae6045b41e2d1f17b930b2f126724\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f6d5ae9668b652db27e19423032c1c91\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\54889ffdb8c8a4eb705322ce1b111c26\transformed\navigation-common-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\bc75f1cc23ddb61cebc1fd590824ad73\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d8e7999a1d02387939b86944b25cfbe1\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\a25d9dd5936ac398e663d1e8234156dc\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\72ebf0177415abcf5167133c25c3d4a4\transformed\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\33c215dc9c6c4dfbcae4f8b14c45681b\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\c0e79e8dd451fe736c4d5e281b5e9dee\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\33e7785adff4f2f376189e68fc077cbe\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9fc2d5d52bf893bfad1c1fb17b888a36\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\5891fa460a3ab417a50267dbe4ae507d\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dce00f9d154866288b53bdb3705ea6aa\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\ed1f5623c620827c7a6d877b3ac4ad64\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\fa6bfb40545b18e04732844c26c91597\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\29394f5304979126d1242735f2487979\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:5:5-44:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\bc75f1cc23ddb61cebc1fd590824ad73\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\bc75f1cc23ddb61cebc1fd590824ad73\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d8e7999a1d02387939b86944b25cfbe1\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d8e7999a1d02387939b86944b25cfbe1\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\bc75f1cc23ddb61cebc1fd590824ad73\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:8:9-54
+	tools:targetApi
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:13:9-28
+	android:icon
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:12:9-43
+	android:dataExtractionRules
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:7:9-65
+activity#com.example.curso.Confirmacion
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:15:13-41
+activity#com.example.curso.ActionBarTest
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:18:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.curso.Comanda
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:26:9-28:39
+	android:exported
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:27:13-36
+activity#com.example.curso.Register
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:30:13-37
+activity#com.example.curso.Login
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:33:13-34
+activity#com.example.curso.MainActivity
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:35:9-39:20
+	android:exported
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:36:13-41
+meta-data#preloaded_fonts
+ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:41:9-43:57
+	android:resource
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:43:13-54
+	android:name
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml:42:13-43
+uses-sdk
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:viewbinding:8.0.2] C:\Users\dafne\.gradle\caches\transforms-3\5e01bab49cfea4f8ead461781eb78488\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.android.databinding:viewbinding:8.0.2] C:\Users\dafne\.gradle\caches\transforms-3\5e01bab49cfea4f8ead461781eb78488\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dfbbfef6721b7fde195be70fc5c67b46\transformed\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dfbbfef6721b7fde195be70fc5c67b46\transformed\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\176e2cb87ca60634b7f06bd4bd6aa64f\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\176e2cb87ca60634b7f06bd4bd6aa64f\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9580e2e2bfcce907899d321cf6f5a6b9\transformed\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9580e2e2bfcce907899d321cf6f5a6b9\transformed\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\53f9a967fbe4d8886ac406b372ab1e09\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\53f9a967fbe4d8886ac406b372ab1e09\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9999d8b064ed0aec15c78a6f2d201bf0\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9999d8b064ed0aec15c78a6f2d201bf0\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\8b5178ec43d3621b2d7eda6c127c7001\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\8b5178ec43d3621b2d7eda6c127c7001\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\5912fd34bcd11a96378d337cb34bf76f\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\5912fd34bcd11a96378d337cb34bf76f\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d6ef6e5043f54bcd33c4844f9677b479\transformed\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d6ef6e5043f54bcd33c4844f9677b479\transformed\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\8127c882e63deaf54c6823edad9d0d99\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\8127c882e63deaf54c6823edad9d0d99\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9ab05ce1dcc93f3504dd89b06b5f8006\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9ab05ce1dcc93f3504dd89b06b5f8006\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\19a586c0ffad7f4e60bfbe999b79cfd6\transformed\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\19a586c0ffad7f4e60bfbe999b79cfd6\transformed\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f7d1a34efc74dcf1bed32957bac0bf79\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f7d1a34efc74dcf1bed32957bac0bf79\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\be9193d8bf8bceee1d9896f452b482e4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\be9193d8bf8bceee1d9896f452b482e4\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\163de9b8717f6ccbb023046f332a2697\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\163de9b8717f6ccbb023046f332a2697\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f0c1ddddaeeb6a0c245d7ff29498efa5\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f0c1ddddaeeb6a0c245d7ff29498efa5\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\000bf074fed85c4be34718ab87355d4b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\000bf074fed85c4be34718ab87355d4b\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d973a0641a4fdf3f4290aa4974f1875d\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d973a0641a4fdf3f4290aa4974f1875d\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\728ae6045b41e2d1f17b930b2f126724\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\728ae6045b41e2d1f17b930b2f126724\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f6d5ae9668b652db27e19423032c1c91\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\f6d5ae9668b652db27e19423032c1c91\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\54889ffdb8c8a4eb705322ce1b111c26\transformed\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\54889ffdb8c8a4eb705322ce1b111c26\transformed\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\bc75f1cc23ddb61cebc1fd590824ad73\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\bc75f1cc23ddb61cebc1fd590824ad73\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d8e7999a1d02387939b86944b25cfbe1\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\d8e7999a1d02387939b86944b25cfbe1\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\a25d9dd5936ac398e663d1e8234156dc\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\a25d9dd5936ac398e663d1e8234156dc\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\72ebf0177415abcf5167133c25c3d4a4\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\72ebf0177415abcf5167133c25c3d4a4\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\33c215dc9c6c4dfbcae4f8b14c45681b\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\33c215dc9c6c4dfbcae4f8b14c45681b\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\c0e79e8dd451fe736c4d5e281b5e9dee\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\c0e79e8dd451fe736c4d5e281b5e9dee\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\33e7785adff4f2f376189e68fc077cbe\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\33e7785adff4f2f376189e68fc077cbe\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9fc2d5d52bf893bfad1c1fb17b888a36\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9fc2d5d52bf893bfad1c1fb17b888a36\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\5891fa460a3ab417a50267dbe4ae507d\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\5891fa460a3ab417a50267dbe4ae507d\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dce00f9d154866288b53bdb3705ea6aa\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dce00f9d154866288b53bdb3705ea6aa\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\ed1f5623c620827c7a6d877b3ac4ad64\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\ed1f5623c620827c7a6d877b3ac4ad64\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\fa6bfb40545b18e04732844c26c91597\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\fa6bfb40545b18e04732844c26c91597\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\29394f5304979126d1242735f2487979\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dafne\.gradle\caches\transforms-3\29394f5304979126d1242735f2487979\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\dafne\Downloads\Tarea-02\Curso\app\src\main\AndroidManifest.xml

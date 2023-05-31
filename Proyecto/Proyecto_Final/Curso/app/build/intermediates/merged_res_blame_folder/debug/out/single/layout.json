@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_register.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_menu.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_action_bar_test.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_action_bar_test.xml"
+    },
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_main.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_confirmacion.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_confirmacion.xml"
+    },
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_login.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_login.xml"
+    }
+]
