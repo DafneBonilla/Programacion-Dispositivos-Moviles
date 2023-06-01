@@ -14,14 +14,15 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_main"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Curso" >
         <activity
             android:name="com.example.curso.MainActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.example.curso.Confirmacion"
             android:exported="false" />

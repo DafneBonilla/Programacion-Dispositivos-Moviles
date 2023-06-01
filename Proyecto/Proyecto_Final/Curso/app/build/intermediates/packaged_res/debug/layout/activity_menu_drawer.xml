@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivityDrawer"
-    android:id="@+id/drawer_menu">
+    android:id="@+id/drawer_menu"
+    android:contentDescription="@string/menu_drawer">
 
     <include
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         layout="@layout/drawer_toolbar">
     </include>
 
     <include
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        layout="@layout/activity_main">
+        android:layout_height="match_parent"
+        layout="@layout/activity_container">
     </include>
 
     <android.support.design.widget.NavigationView
@@ -26,6 +27,5 @@
         app:menu="@menu/drawer_menu"
         app:headerLayout="@layout/navigation_drawer"
         android:layout_gravity="start"
-        android:fitsSystemWindows="true"/>
-
+        android:fitsSystemWindows="true" />
 </android.support.v4.widget.DrawerLayout>

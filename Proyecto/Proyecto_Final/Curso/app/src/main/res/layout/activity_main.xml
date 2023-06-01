@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/main_app2"
-    tools:context=".MainActivityDrawer">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/text_login"
@@ -35,7 +35,7 @@
         android:layout_weight="1"
         android:background="@drawable/rounded_button"
         android:fontFamily="@font/louis_george_rg"
-        android:onClick="redirectLoginDrawer"
+
         android:padding="6dp"
         android:text="@string/txt_iniciar_sesion"
         android:textColor="#FFFFFF"
@@ -58,7 +58,7 @@
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="@font/louis_george_rg"
-        android:onClick="redirectRegisterDrawer"
+
         android:padding="6dp"
         android:text="@string/txt_registrarse"
         android:textColor="#EE3F16"

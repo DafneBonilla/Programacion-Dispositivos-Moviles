@@ -26,13 +26,13 @@ public class ActionBarTest extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
-        if(id ==  R.id.registrer){
-            Intent intent =  new Intent(this, Register.class);
+        if(id ==  R.id.login_actionBar){
+            Intent intent =  new Intent(this, Login.class);
             startActivity(intent);
             return true;
         }
-        if(id ==  R.id.login){
-            Intent intent =  new Intent(this, Login.class);
+        if(id ==  R.id.register_actionBar){
+            Intent intent =  new Intent(this, Register.class);
             startActivity(intent);
             return true;
         }
@@ -43,11 +43,6 @@ public class ActionBarTest extends AppCompatActivity {
         }
         if(id ==  R.id.cart){
             Intent intent =  new Intent(this, Confirmacion.class);
-            startActivity(intent);
-            return true;
-        }
-        if(id ==  R.id.main){
-            Intent intent =  new Intent(this, MainActivity.class);
             startActivity(intent);
             return true;
         }

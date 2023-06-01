@@ -1,19 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_right24px.png.flat",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\right24px.png"
-    },
-    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_menu_drawer.xml.flat",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_menu_drawer.xml"
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_right24px.png.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\right24px.png"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_ic_shopping_cart.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\ic_shopping_cart.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_menu_drawer.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_menu_drawer.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_infocircle24px.png.flat",
@@ -48,16 +52,16 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\ic_question_mark.xml"
     },
     {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_asap.xml.flat",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\font\\asap.xml"
-    },
-    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_content_main.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.example.curso.app-merged_res-16:/layout_activity_main.xml.flat",
-        "source": "com.example.curso.app-main-18:/layout/activity_main.xml"
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_asap.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\font\\asap.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_privacy.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_privacy.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_login.xml.flat",
@@ -108,6 +112,10 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\round_border.xml"
     },
     {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_ic_login.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\ic_login.xml"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_custom_input.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\custom_input.xml"
     },
@@ -122,6 +130,10 @@
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_container.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_container.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_main_app.jpg.flat",
@@ -140,8 +152,16 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\left24px.png"
     },
     {
+        "merged": "com.example.curso.app-merged_res-16:/layout_navigation_drawer.xml.flat",
+        "source": "com.example.curso.app-main-18:/layout/navigation_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_logo_final_app.png.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\logo_final_app.png"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_roboto_bold.xml.flat",
@@ -150,6 +170,10 @@
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_side_nav_bar.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_menu_drawer_main.jpg.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\menu_drawer_main.jpg"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_roboto.xml.flat",
@@ -166,10 +190,6 @@
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_menu_app.jpg.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\menu_app.jpg"
-    },
-    {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_question_mark.xml.flat",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\question_mark.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_rounded_button.xml.flat",
@@ -220,12 +240,12 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_drawer_toolbar.xml.flat",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\drawer_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_ic_lock.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_drawer_toolbar.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\drawer_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\navigation_nav_graph.xml.flat",
@@ -256,6 +276,10 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\rounded_button_stroke.xml"
     },
     {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_logo_main.png.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\logo_main.png"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\xml\\backup_rules.xml"
     },
@@ -280,6 +304,10 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_action_bar_test.xml"
     },
     {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_about_us.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_about_us.xml"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_pizza2.png.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\pizza2.png"
     },
@@ -290,6 +318,10 @@
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_archivo.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\font\\archivo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_ic_register.xml.flat",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\ic_register.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_assistant.xml.flat",

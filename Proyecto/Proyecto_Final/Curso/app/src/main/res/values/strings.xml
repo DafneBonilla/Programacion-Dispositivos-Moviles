@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Curso</string>
+    <string name="app_name">Pizza Planet</string>
     <string name="txt_bienvenido_login">Bienvenido a Bordo</string>
     <string name="txt_iniciar_sesion">Iniciar Sesión</string>
     <string name="txt_registrarse">Registrarse</string>
@@ -41,7 +41,9 @@
     <string name="txt_saved">MX$178.00</string>
     <string name="txt_next">Siguiente</string>
     <string name="menu_drawer">Pizza Planet</string>
+    <string name="support">Support</string>
     <string name="question">About Us</string>
+    <string name="rights">© 2023 Facultad de Ciencias - UNAM </string>
     <string-array name="cantidad_pizza">
         <item>0</item>
         <item>1</item>
@@ -58,19 +60,17 @@
     <string name="PrecioPiiza3">$350</string>
     <string name="BotonOrdenar">Ordenar</string>
     <string name="TituloElige">Elige tu pizza:</string>
-    <string name="bt_drawer_menu">Menu</string>
-    <string name="bt_drawer_main">Principal</string>
     <string name="bt_drawer_login">Iniciar Sesión</string>
-    <string name="bt_actionbar_register">Registro</string>
-    <string name="bt_actionbar_cart">Pedido</string>
-    <string name="actionbar_test_message">Prueba de ActionBar y Menu Drawer</string>
+    <string name="bt_actionbar_register">Registrarse</string>
+    <string name="bt_actionbar_login">Iniciar Sesión</string>
+    <string name="bt_drawer_menu">Menú</string>
+    <string name="bt_drawer_cart">Carrito</string>
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_menu_inicio">MenuInicio</string>
