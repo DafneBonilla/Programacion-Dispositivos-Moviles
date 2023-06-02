@@ -1,13 +1,5 @@
 [
     {
-        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/navigation_drawer.xml",
-        "source": "com.example.curso.app-main-18:/layout/navigation_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\content_main.xml",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\content_main.xml"
-    },
-    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\drawer_toolbar.xml",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\drawer_toolbar.xml"
     },
@@ -32,20 +24,20 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_container.xml"
     },
     {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_register.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_register.xml"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_privacy.xml",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_privacy.xml"
     },
     {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_action_bar_test.xml",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_action_bar_test.xml"
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_register.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_about_us.xml",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_about_us.xml"
-    },
-    {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_register.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\navigation_drawer.xml",

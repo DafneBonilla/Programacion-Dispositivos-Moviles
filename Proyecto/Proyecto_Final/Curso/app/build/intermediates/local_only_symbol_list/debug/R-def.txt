@@ -79,7 +79,6 @@ id button3
 id button4
 id button5
 id button6
-id button_continuar
 id button_login
 id button_register
 id cantidad_PizzaHawaiana
@@ -130,11 +129,11 @@ id txt_direccion
 id txt_email
 id txt_email_login
 id txt_entrega
+id txt_iniciar_sesion_button
 id txt_inicio
 id txt_inicio_sesion_registrarse
 id txt_itemTotal
 id txt_itemTotalV
-id txt_mantener_sesion
 id txt_mipedido
 id txt_name
 id txt_olvidar_contraseña
@@ -142,6 +141,7 @@ id txt_password
 id txt_password_login
 id txt_paymentmethod
 id txt_paymentsD
+id txt_registrarse_button
 id txt_registrarse_inicio_sesion
 id txt_saved
 id txt_savedNext
@@ -228,6 +228,7 @@ string txt_deliveryFeeValue
 string txt_deliveryMethod
 string txt_direccion
 string txt_iniciar_sesion
+string txt_iniciar_sesion_button
 string txt_inicio
 string txt_inicio_sesion_registrarse
 string txt_itemTotal
@@ -241,6 +242,7 @@ string txt_password
 string txt_paymentMethod
 string txt_paymenthDetails
 string txt_registrarse
+string txt_registrarse_button
 string txt_registrarse_inicio_sesion
 string txt_saved
 string txt_tip

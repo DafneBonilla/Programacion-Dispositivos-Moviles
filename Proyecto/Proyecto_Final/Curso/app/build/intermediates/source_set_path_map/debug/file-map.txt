@@ -10,10 +10,10 @@ com.example.curso.app-support-compat-28.0.0-8 C:\Users\dafne\.gradle\caches\tran
 com.example.curso.app-navigation-runtime-1.0.0-9 C:\Users\dafne\.gradle\caches\transforms-3\d6ef6e5043f54bcd33c4844f9677b479\transformed\navigation-runtime-1.0.0\res
 com.example.curso.app-navigation-ui-1.0.0-10 C:\Users\dafne\.gradle\caches\transforms-3\dfbbfef6721b7fde195be70fc5c67b46\transformed\navigation-ui-1.0.0\res
 com.example.curso.app-design-28.0.0-11 C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\res
-com.example.curso.app-pngs-12 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\generated\res\pngs\debug
-com.example.curso.app-resValues-13 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\generated\res\resValues\debug
-com.example.curso.app-packageDebugResources-14 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.curso.app-packageDebugResources-15 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.curso.app-merged_res-16 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\intermediates\merged_res\debug
-com.example.curso.app-debug-17 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\debug\res
-com.example.curso.app-main-18 C:\Users\dafne\Downloads\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\res
+com.example.curso.app-pngs-12 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\generated\res\pngs\debug
+com.example.curso.app-resValues-13 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\generated\res\resValues\debug
+com.example.curso.app-packageDebugResources-14 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.curso.app-packageDebugResources-15 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.curso.app-merged_res-16 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\build\intermediates\merged_res\debug
+com.example.curso.app-debug-17 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\debug\res
+com.example.curso.app-main-18 C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\res

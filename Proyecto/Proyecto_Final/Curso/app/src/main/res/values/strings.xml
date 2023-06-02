@@ -11,9 +11,11 @@
     <string name="txt_name">Nombre</string>
     <string name="txt_olvidar_contraseña">¿Olvidó su contraseña?</string>
     <string name="rb_mantenerSesion">Mantener Sesión Abierta</string>
-    <string name="txt_registrarse_inicio_sesion">¿Aún no tienes una cuenta? Registrarse</string>
-    <string name="txt_inicio_sesion_registrarse">¿Ya tienes una cuenta? Iniciar Sesión</string>
-    <string name="txt_contraseña_sugerencia">Ingresa una contraseña que contenga al menos 8 caracteres entre mayúsculas, minúsculas y números.</string>
+    <string name="txt_registrarse_inicio_sesion">¿Aún no tienes una cuenta?</string>
+    <string name="txt_registrarse_button">Regístrate</string>
+    <string name="txt_inicio_sesion_registrarse">¿Ya tienes una cuenta? </string>
+    <string name="txt_iniciar_sesion_button">Inicia Sesión </string>
+    <string name="txt_contraseña_sugerencia">Ingresa una contraseña que contenga al menos 8 caracteres.</string>
     <string name="txt_mipedido">Enviar Pedido</string>
     <string name="txt_direccion">Investigación Científica, C.U., Coyoacán, 04510</string>
     <string name="txt_userinfo">Joel Arroyo  +5587675423</string>

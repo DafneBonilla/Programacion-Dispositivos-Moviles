@@ -11,7 +11,6 @@ import android.viewbinding.ViewBinding;
 import android.viewbinding.ViewBindings;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import com.example.curso.R;
 import java.lang.NullPointerException;
@@ -38,21 +37,21 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView txtInicio;
 
   @NonNull
-  public final RadioButton txtMantenerSesion;
-
-  @NonNull
   public final TextView txtOlvidarContraseA;
 
   @NonNull
   public final EditText txtPasswordLogin;
 
   @NonNull
+  public final TextView txtRegistrarseButton;
+
+  @NonNull
   public final TextView txtRegistrarseInicioSesion;
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btLoginStart,
       @NonNull ConstraintLayout r, @NonNull TextView txtAviso, @NonNull EditText txtEmailLogin,
-      @NonNull TextView txtInicio, @NonNull RadioButton txtMantenerSesion,
-      @NonNull TextView txtOlvidarContraseA, @NonNull EditText txtPasswordLogin,
+      @NonNull TextView txtInicio, @NonNull TextView txtOlvidarContraseA,
+      @NonNull EditText txtPasswordLogin, @NonNull TextView txtRegistrarseButton,
       @NonNull TextView txtRegistrarseInicioSesion) {
     this.rootView = rootView;
     this.btLoginStart = btLoginStart;
@@ -60,9 +59,9 @@ public final class ActivityLoginBinding implements ViewBinding {
     this.txtAviso = txtAviso;
     this.txtEmailLogin = txtEmailLogin;
     this.txtInicio = txtInicio;
-    this.txtMantenerSesion = txtMantenerSesion;
     this.txtOlvidarContraseA = txtOlvidarContraseA;
     this.txtPasswordLogin = txtPasswordLogin;
+    this.txtRegistrarseButton = txtRegistrarseButton;
     this.txtRegistrarseInicioSesion = txtRegistrarseInicioSesion;
   }
 
@@ -119,12 +118,6 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_mantener_sesion;
-      RadioButton txtMantenerSesion = ViewBindings.findChildViewById(rootView, id);
-      if (txtMantenerSesion == null) {
-        break missingId;
-      }
-
       id = R.id.txt_olvidar_contraseña;
       TextView txtOlvidarContraseA = ViewBindings.findChildViewById(rootView, id);
       if (txtOlvidarContraseA == null) {
@@ -137,6 +130,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txt_registrarse_button;
+      TextView txtRegistrarseButton = ViewBindings.findChildViewById(rootView, id);
+      if (txtRegistrarseButton == null) {
+        break missingId;
+      }
+
       id = R.id.txt_registrarse_inicio_sesion;
       TextView txtRegistrarseInicioSesion = ViewBindings.findChildViewById(rootView, id);
       if (txtRegistrarseInicioSesion == null) {
@@ -144,7 +143,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, btLoginStart, r, txtAviso,
-          txtEmailLogin, txtInicio, txtMantenerSesion, txtOlvidarContraseA, txtPasswordLogin,
+          txtEmailLogin, txtInicio, txtOlvidarContraseA, txtPasswordLogin, txtRegistrarseButton,
           txtRegistrarseInicioSesion);
     }
     String missingId = rootView.getResources().getResourceName(id);

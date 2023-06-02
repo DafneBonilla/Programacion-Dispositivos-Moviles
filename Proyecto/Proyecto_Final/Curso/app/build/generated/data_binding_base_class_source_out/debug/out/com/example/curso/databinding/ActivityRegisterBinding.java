@@ -37,6 +37,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText txtEmail;
 
   @NonNull
+  public final TextView txtIniciarSesionButton;
+
+  @NonNull
   public final TextView txtInicio;
 
   @NonNull
@@ -51,14 +54,16 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btContinueRegister, @NonNull ConstraintLayout r, @NonNull TextView txtAviso,
       @NonNull TextView txtContraseASugerencia, @NonNull EditText txtEmail,
-      @NonNull TextView txtInicio, @NonNull TextView txtInicioSesionRegistrarse,
-      @NonNull EditText txtName, @NonNull EditText txtPassword) {
+      @NonNull TextView txtIniciarSesionButton, @NonNull TextView txtInicio,
+      @NonNull TextView txtInicioSesionRegistrarse, @NonNull EditText txtName,
+      @NonNull EditText txtPassword) {
     this.rootView = rootView;
     this.btContinueRegister = btContinueRegister;
     this.r = r;
     this.txtAviso = txtAviso;
     this.txtContraseASugerencia = txtContraseASugerencia;
     this.txtEmail = txtEmail;
+    this.txtIniciarSesionButton = txtIniciarSesionButton;
     this.txtInicio = txtInicio;
     this.txtInicioSesionRegistrarse = txtInicioSesionRegistrarse;
     this.txtName = txtName;
@@ -118,6 +123,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txt_iniciar_sesion_button;
+      TextView txtIniciarSesionButton = ViewBindings.findChildViewById(rootView, id);
+      if (txtIniciarSesionButton == null) {
+        break missingId;
+      }
+
       id = R.id.txt_inicio;
       TextView txtInicio = ViewBindings.findChildViewById(rootView, id);
       if (txtInicio == null) {
@@ -143,8 +154,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ConstraintLayout) rootView, btContinueRegister, r,
-          txtAviso, txtContraseASugerencia, txtEmail, txtInicio, txtInicioSesionRegistrarse,
-          txtName, txtPassword);
+          txtAviso, txtContraseASugerencia, txtEmail, txtIniciarSesionButton, txtInicio,
+          txtInicioSesionRegistrarse, txtName, txtPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

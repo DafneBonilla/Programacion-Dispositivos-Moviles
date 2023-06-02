@@ -32,7 +32,7 @@
         android:id="@+id/txt_email_login"
         android:layout_width="324dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/custom_input"
         android:drawableEnd="@drawable/ic_email"
         android:ems="10"
@@ -79,12 +79,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="223dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="44dp"
-        android:layout_marginBottom="17dp"
         android:text="@string/txt_olvidar_contraseña"
         android:textColor="@android:color/darker_gray"
-        app:layout_constraintBottom_toTopOf="@+id/txt_mantener_sesion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_password_login" />
@@ -94,7 +92,7 @@
         android:layout_width="254dp"
         android:layout_height="52dp"
         android:layout_marginStart="78dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="79dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_button"
@@ -107,64 +105,54 @@
         app:flow_verticalAlign="center"
         app:layout_constraintBottom_toTopOf="@+id/txt_aviso"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_mantener_sesion" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_password_login"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/txt_aviso"
         android:layout_width="297dp"
         android:layout_height="33dp"
         android:layout_marginStart="57dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="38dp"
         android:layout_marginEnd="57dp"
-        android:layout_marginBottom="15dp"
         android:fontFamily="@font/louis_george_rg"
         android:gravity="center"
         android:text="@string/txt_aviso"
         android:textColor="@android:color/darker_gray"
         android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_registrarse_inicio_sesion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_continuar" />
-
-    <RadioButton
-        android:id="@+id/txt_mantener_sesion"
-        android:layout_width="218dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="18dp"
-        android:layout_weight="40"
-        android:filterTouchesWhenObscured="false"
-        android:fontFamily="@font/louis_george_rg"
-        android:shadowColor="#0082BBE6"
-        android:text="@string/rb_mantenerSesion"
-        android:textColor="#000000"
-        android:textColorHint="#FFFFFF"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/button_continuar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_olvidar_contraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_login_start" />
 
     <TextView
         android:id="@+id/txt_registrarse_inicio_sesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="82dp"
-        android:layout_marginBottom="58dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="62dp"
         android:fontFamily="@font/louis_george_rg"
         android:text="@string/txt_registrarse_inicio_sesion"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txt_registrarse_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_registrarse_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="62dp"
+        android:fontFamily="@font/louis_george_rg"
+        android:text="@string/txt_registrarse_button"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_aviso" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

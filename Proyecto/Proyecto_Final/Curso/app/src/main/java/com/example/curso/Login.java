@@ -1,10 +1,13 @@
 package com.example.curso;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import com.example.curso.SQLClasses.Usuario;
 import com.example.curso.SQLModel.ModeloUsuario;
@@ -21,6 +24,7 @@ public class Login extends AppCompatActivity {
     private Button login;
     private ModeloUsuario model_user;
     private Intent i;
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +33,15 @@ public class Login extends AppCompatActivity {
         this.password = (EditText) findViewById(R.id.txt_password_login);
         this.login = (Button) findViewById(R.id.bt_login_start);
         this.login.setOnClickListener(v -> login());
+        textView=(TextView)findViewById(R.id.txt_registrarse_button);
+        textView.setPaintFlags(textView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, Register.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /**
