@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.viewbinding.ViewBinding;
 import android.viewbinding.ViewBindings;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -28,90 +27,86 @@ public final class ActivityMenuBinding implements ViewBinding {
   public final Button button;
 
   @NonNull
-  public final Spinner cantidadPizzaHawaiana;
+  public final Spinner cantidadPizzaItaliana;
 
   @NonNull
-  public final Spinner cantidadPizzaPeperoni;
+  public final Spinner cantidadPizzaSalami;
 
   @NonNull
-  public final Spinner cantidadPizzaQueso;
+  public final Spinner cantidadPizzaVegetariana;
 
   @NonNull
-  public final ConstraintLayout constraintPizzaHawaiana;
+  public final ConstraintLayout constraintPizzaItalina;
 
   @NonNull
-  public final ConstraintLayout constraintPizzaPeperoni;
+  public final ConstraintLayout constraintPizzaSalami;
 
   @NonNull
-  public final ConstraintLayout constraintPizzaQueso;
+  public final ConstraintLayout constraintPizzaVegetariana;
 
   @NonNull
   public final Guideline guideline;
 
   @NonNull
-  public final ImageButton imageButton;
+  public final ImageView imageButtonPizzaItaliana;
 
   @NonNull
-  public final ImageView imageButtonPizzaHawaiana;
+  public final ImageView imageViewPizzaSalami;
 
   @NonNull
-  public final ImageView imageViewPizzaPeperoni;
-
-  @NonNull
-  public final ImageView imageViewPizzaQueso;
+  public final ImageView imageViewPizzaVegetariana;
 
   @NonNull
   public final TextView textView;
 
   @NonNull
-  public final TextView textViewPrecioHawaiana;
+  public final TextView textViewPrecioItaliana;
 
   @NonNull
-  public final TextView textViewPrecioPeperoni;
+  public final TextView textViewPrecioSalami;
 
   @NonNull
-  public final TextView textViewPrecioQueso;
+  public final TextView textViewPrecioVegetariana;
 
   @NonNull
-  public final TextView textViewTituloPizzaHawaiana;
+  public final TextView textViewTituloPizzaItaliana;
 
   @NonNull
-  public final TextView textViewTituloPizzaPeperoni;
+  public final TextView textViewTituloPizzaSalami;
 
   @NonNull
-  public final TextView textViewTituloPizzaQueso;
+  public final TextView textViewTituloPizzaVegetariana;
 
   private ActivityMenuBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull Spinner cantidadPizzaHawaiana, @NonNull Spinner cantidadPizzaPeperoni,
-      @NonNull Spinner cantidadPizzaQueso, @NonNull ConstraintLayout constraintPizzaHawaiana,
-      @NonNull ConstraintLayout constraintPizzaPeperoni,
-      @NonNull ConstraintLayout constraintPizzaQueso, @NonNull Guideline guideline,
-      @NonNull ImageButton imageButton, @NonNull ImageView imageButtonPizzaHawaiana,
-      @NonNull ImageView imageViewPizzaPeperoni, @NonNull ImageView imageViewPizzaQueso,
-      @NonNull TextView textView, @NonNull TextView textViewPrecioHawaiana,
-      @NonNull TextView textViewPrecioPeperoni, @NonNull TextView textViewPrecioQueso,
-      @NonNull TextView textViewTituloPizzaHawaiana, @NonNull TextView textViewTituloPizzaPeperoni,
-      @NonNull TextView textViewTituloPizzaQueso) {
+      @NonNull Spinner cantidadPizzaItaliana, @NonNull Spinner cantidadPizzaSalami,
+      @NonNull Spinner cantidadPizzaVegetariana, @NonNull ConstraintLayout constraintPizzaItalina,
+      @NonNull ConstraintLayout constraintPizzaSalami,
+      @NonNull ConstraintLayout constraintPizzaVegetariana, @NonNull Guideline guideline,
+      @NonNull ImageView imageButtonPizzaItaliana, @NonNull ImageView imageViewPizzaSalami,
+      @NonNull ImageView imageViewPizzaVegetariana, @NonNull TextView textView,
+      @NonNull TextView textViewPrecioItaliana, @NonNull TextView textViewPrecioSalami,
+      @NonNull TextView textViewPrecioVegetariana, @NonNull TextView textViewTituloPizzaItaliana,
+      @NonNull TextView textViewTituloPizzaSalami,
+      @NonNull TextView textViewTituloPizzaVegetariana) {
     this.rootView = rootView;
     this.button = button;
-    this.cantidadPizzaHawaiana = cantidadPizzaHawaiana;
-    this.cantidadPizzaPeperoni = cantidadPizzaPeperoni;
-    this.cantidadPizzaQueso = cantidadPizzaQueso;
-    this.constraintPizzaHawaiana = constraintPizzaHawaiana;
-    this.constraintPizzaPeperoni = constraintPizzaPeperoni;
-    this.constraintPizzaQueso = constraintPizzaQueso;
+    this.cantidadPizzaItaliana = cantidadPizzaItaliana;
+    this.cantidadPizzaSalami = cantidadPizzaSalami;
+    this.cantidadPizzaVegetariana = cantidadPizzaVegetariana;
+    this.constraintPizzaItalina = constraintPizzaItalina;
+    this.constraintPizzaSalami = constraintPizzaSalami;
+    this.constraintPizzaVegetariana = constraintPizzaVegetariana;
     this.guideline = guideline;
-    this.imageButton = imageButton;
-    this.imageButtonPizzaHawaiana = imageButtonPizzaHawaiana;
-    this.imageViewPizzaPeperoni = imageViewPizzaPeperoni;
-    this.imageViewPizzaQueso = imageViewPizzaQueso;
+    this.imageButtonPizzaItaliana = imageButtonPizzaItaliana;
+    this.imageViewPizzaSalami = imageViewPizzaSalami;
+    this.imageViewPizzaVegetariana = imageViewPizzaVegetariana;
     this.textView = textView;
-    this.textViewPrecioHawaiana = textViewPrecioHawaiana;
-    this.textViewPrecioPeperoni = textViewPrecioPeperoni;
-    this.textViewPrecioQueso = textViewPrecioQueso;
-    this.textViewTituloPizzaHawaiana = textViewTituloPizzaHawaiana;
-    this.textViewTituloPizzaPeperoni = textViewTituloPizzaPeperoni;
-    this.textViewTituloPizzaQueso = textViewTituloPizzaQueso;
+    this.textViewPrecioItaliana = textViewPrecioItaliana;
+    this.textViewPrecioSalami = textViewPrecioSalami;
+    this.textViewPrecioVegetariana = textViewPrecioVegetariana;
+    this.textViewTituloPizzaItaliana = textViewTituloPizzaItaliana;
+    this.textViewTituloPizzaSalami = textViewTituloPizzaSalami;
+    this.textViewTituloPizzaVegetariana = textViewTituloPizzaVegetariana;
   }
 
   @Override
@@ -147,39 +142,39 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cantidad_PizzaHawaiana;
-      Spinner cantidadPizzaHawaiana = ViewBindings.findChildViewById(rootView, id);
-      if (cantidadPizzaHawaiana == null) {
+      id = R.id.cantidad_PizzaItaliana;
+      Spinner cantidadPizzaItaliana = ViewBindings.findChildViewById(rootView, id);
+      if (cantidadPizzaItaliana == null) {
         break missingId;
       }
 
-      id = R.id.cantidad_PizzaPeperoni;
-      Spinner cantidadPizzaPeperoni = ViewBindings.findChildViewById(rootView, id);
-      if (cantidadPizzaPeperoni == null) {
+      id = R.id.cantidad_PizzaSalami;
+      Spinner cantidadPizzaSalami = ViewBindings.findChildViewById(rootView, id);
+      if (cantidadPizzaSalami == null) {
         break missingId;
       }
 
-      id = R.id.cantidad_PizzaQueso;
-      Spinner cantidadPizzaQueso = ViewBindings.findChildViewById(rootView, id);
-      if (cantidadPizzaQueso == null) {
+      id = R.id.cantidad_PizzaVegetariana;
+      Spinner cantidadPizzaVegetariana = ViewBindings.findChildViewById(rootView, id);
+      if (cantidadPizzaVegetariana == null) {
         break missingId;
       }
 
-      id = R.id.constraint_PizzaHawaiana;
-      ConstraintLayout constraintPizzaHawaiana = ViewBindings.findChildViewById(rootView, id);
-      if (constraintPizzaHawaiana == null) {
+      id = R.id.constraint_PizzaItalina;
+      ConstraintLayout constraintPizzaItalina = ViewBindings.findChildViewById(rootView, id);
+      if (constraintPizzaItalina == null) {
         break missingId;
       }
 
-      id = R.id.constraint_PizzaPeperoni;
-      ConstraintLayout constraintPizzaPeperoni = ViewBindings.findChildViewById(rootView, id);
-      if (constraintPizzaPeperoni == null) {
+      id = R.id.constraint_PizzaSalami;
+      ConstraintLayout constraintPizzaSalami = ViewBindings.findChildViewById(rootView, id);
+      if (constraintPizzaSalami == null) {
         break missingId;
       }
 
-      id = R.id.constraint_PizzaQueso;
-      ConstraintLayout constraintPizzaQueso = ViewBindings.findChildViewById(rootView, id);
-      if (constraintPizzaQueso == null) {
+      id = R.id.constraint_PizzaVegetariana;
+      ConstraintLayout constraintPizzaVegetariana = ViewBindings.findChildViewById(rootView, id);
+      if (constraintPizzaVegetariana == null) {
         break missingId;
       }
 
@@ -189,27 +184,21 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
+      id = R.id.imageButton_PizzaItaliana;
+      ImageView imageButtonPizzaItaliana = ViewBindings.findChildViewById(rootView, id);
+      if (imageButtonPizzaItaliana == null) {
         break missingId;
       }
 
-      id = R.id.imageButton_PizzaHawaiana;
-      ImageView imageButtonPizzaHawaiana = ViewBindings.findChildViewById(rootView, id);
-      if (imageButtonPizzaHawaiana == null) {
+      id = R.id.imageView_pizzaSalami;
+      ImageView imageViewPizzaSalami = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewPizzaSalami == null) {
         break missingId;
       }
 
-      id = R.id.imageView_pizzaPeperoni;
-      ImageView imageViewPizzaPeperoni = ViewBindings.findChildViewById(rootView, id);
-      if (imageViewPizzaPeperoni == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView_pizzaQueso;
-      ImageView imageViewPizzaQueso = ViewBindings.findChildViewById(rootView, id);
-      if (imageViewPizzaQueso == null) {
+      id = R.id.imageView_pizzaVegetariana;
+      ImageView imageViewPizzaVegetariana = ViewBindings.findChildViewById(rootView, id);
+      if (imageViewPizzaVegetariana == null) {
         break missingId;
       }
 
@@ -219,48 +208,48 @@ public final class ActivityMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView_PrecioHawaiana;
-      TextView textViewPrecioHawaiana = ViewBindings.findChildViewById(rootView, id);
-      if (textViewPrecioHawaiana == null) {
+      id = R.id.textView_PrecioItaliana;
+      TextView textViewPrecioItaliana = ViewBindings.findChildViewById(rootView, id);
+      if (textViewPrecioItaliana == null) {
         break missingId;
       }
 
-      id = R.id.textView_precioPeperoni;
-      TextView textViewPrecioPeperoni = ViewBindings.findChildViewById(rootView, id);
-      if (textViewPrecioPeperoni == null) {
+      id = R.id.textView_precioSalami;
+      TextView textViewPrecioSalami = ViewBindings.findChildViewById(rootView, id);
+      if (textViewPrecioSalami == null) {
         break missingId;
       }
 
-      id = R.id.textView_PrecioQueso;
-      TextView textViewPrecioQueso = ViewBindings.findChildViewById(rootView, id);
-      if (textViewPrecioQueso == null) {
+      id = R.id.textView_PrecioVegetariana;
+      TextView textViewPrecioVegetariana = ViewBindings.findChildViewById(rootView, id);
+      if (textViewPrecioVegetariana == null) {
         break missingId;
       }
 
-      id = R.id.textView_TituloPizzaHawaiana;
-      TextView textViewTituloPizzaHawaiana = ViewBindings.findChildViewById(rootView, id);
-      if (textViewTituloPizzaHawaiana == null) {
+      id = R.id.textView_TituloPizzaItaliana;
+      TextView textViewTituloPizzaItaliana = ViewBindings.findChildViewById(rootView, id);
+      if (textViewTituloPizzaItaliana == null) {
         break missingId;
       }
 
-      id = R.id.textView_TituloPizzaPeperoni;
-      TextView textViewTituloPizzaPeperoni = ViewBindings.findChildViewById(rootView, id);
-      if (textViewTituloPizzaPeperoni == null) {
+      id = R.id.textView_TituloPizzaSalami;
+      TextView textViewTituloPizzaSalami = ViewBindings.findChildViewById(rootView, id);
+      if (textViewTituloPizzaSalami == null) {
         break missingId;
       }
 
-      id = R.id.textView_TituloPizzaQueso;
-      TextView textViewTituloPizzaQueso = ViewBindings.findChildViewById(rootView, id);
-      if (textViewTituloPizzaQueso == null) {
+      id = R.id.textView_TituloPizzaVegetariana;
+      TextView textViewTituloPizzaVegetariana = ViewBindings.findChildViewById(rootView, id);
+      if (textViewTituloPizzaVegetariana == null) {
         break missingId;
       }
 
-      return new ActivityMenuBinding((ConstraintLayout) rootView, button, cantidadPizzaHawaiana,
-          cantidadPizzaPeperoni, cantidadPizzaQueso, constraintPizzaHawaiana,
-          constraintPizzaPeperoni, constraintPizzaQueso, guideline, imageButton,
-          imageButtonPizzaHawaiana, imageViewPizzaPeperoni, imageViewPizzaQueso, textView,
-          textViewPrecioHawaiana, textViewPrecioPeperoni, textViewPrecioQueso,
-          textViewTituloPizzaHawaiana, textViewTituloPizzaPeperoni, textViewTituloPizzaQueso);
+      return new ActivityMenuBinding((ConstraintLayout) rootView, button, cantidadPizzaItaliana,
+          cantidadPizzaSalami, cantidadPizzaVegetariana, constraintPizzaItalina,
+          constraintPizzaSalami, constraintPizzaVegetariana, guideline, imageButtonPizzaItaliana,
+          imageViewPizzaSalami, imageViewPizzaVegetariana, textView, textViewPrecioItaliana,
+          textViewPrecioSalami, textViewPrecioVegetariana, textViewTituloPizzaItaliana,
+          textViewTituloPizzaSalami, textViewTituloPizzaVegetariana);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

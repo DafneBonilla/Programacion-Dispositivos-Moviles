@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/menu_app"
     tools:context=".MainActivity">
-
-
+    <!--android:background="@drawable/menu_app"-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -18,26 +16,24 @@
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/constraint_PizzaHawaiana"
+        app:layout_constraintBottom_toTopOf="@+id/constraint_PizzaItalina"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guideline" />
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraint_PizzaHawaiana"
+        android:id="@+id/constraint_PizzaItalina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
-        app:layout_constraintBottom_toTopOf="@id/constraint_PizzaPeperoni">
+        app:layout_constraintBottom_toTopOf="@id/constraint_PizzaSalami">
 
         <TextView
-            android:id="@+id/textView_TituloPizzaHawaiana"
+            android:id="@+id/textView_TituloPizzaItaliana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/louis_george_rg"
@@ -50,31 +46,31 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageButton_PizzaHawaiana"
+            android:id="@+id/imageButton_PizzaItaliana"
             android:layout_width="150dp"
             android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaHawaiana"
+            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaItaliana"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaItaliana"
             app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/pizza1" />
 
         <Spinner
-            android:id="@+id/cantidad_PizzaHawaiana"
+            android:id="@+id/cantidad_PizzaItaliana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/cantidad_pizza"
             android:minWidth="50sp"
             android:minHeight="50sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/textView_PrecioHawaiana"
-            app:layout_constraintStart_toEndOf="@id/imageButton_PizzaHawaiana"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana" />
+            app:layout_constraintEnd_toStartOf="@id/textView_PrecioItaliana"
+            app:layout_constraintStart_toEndOf="@id/imageButton_PizzaItaliana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaItaliana" />
 
 
         <TextView
-            android:id="@+id/textView_PrecioHawaiana"
+            android:id="@+id/textView_PrecioItaliana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/louis_george_rg"
@@ -83,24 +79,24 @@
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaHawaiana"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaHawaiana" />
+            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaItaliana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaItaliana" />
 
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraint_PizzaPeperoni"
+        android:id="@+id/constraint_PizzaSalami"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        app:layout_constraintBottom_toTopOf="@id/constraint_PizzaQueso"
+        app:layout_constraintBottom_toTopOf="@id/constraint_PizzaVegetariana"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaHawaiana">
+        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaItalina">
 
         <TextView
-            android:id="@+id/textView_TituloPizzaPeperoni"
+            android:id="@+id/textView_TituloPizzaSalami"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -114,30 +110,30 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView_pizzaPeperoni"
+            android:id="@+id/imageView_pizzaSalami"
             android:layout_width="150dp"
             android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaPeperoni"
+            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaSalami"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaPeperoni"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaSalami"
             app:srcCompat="@drawable/pizza2" />
 
         <Spinner
-            android:id="@+id/cantidad_PizzaPeperoni"
+            android:id="@+id/cantidad_PizzaSalami"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/cantidad_pizza"
             android:minWidth="50sp"
             android:minHeight="50sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/textView_precioPeperoni"
-            app:layout_constraintStart_toEndOf="@id/imageView_pizzaPeperoni"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaPeperoni"
+            app:layout_constraintEnd_toStartOf="@id/textView_precioSalami"
+            app:layout_constraintStart_toEndOf="@id/imageView_pizzaSalami"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaSalami"
             app:layout_constraintVertical_bias="0.48" />
 
         <TextView
-            android:id="@+id/textView_precioPeperoni"
+            android:id="@+id/textView_precioSalami"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/louis_george_rg"
@@ -146,12 +142,12 @@
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaPeperoni"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaPeperoni" />
+            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaSalami"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaSalami" />
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraint_PizzaQueso"
+        android:id="@+id/constraint_PizzaVegetariana"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -159,10 +155,10 @@
         app:layout_constraintBottom_toTopOf="@id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaPeperoni">
+        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaSalami">
 
         <TextView
-            android:id="@+id/textView_TituloPizzaQueso"
+            android:id="@+id/textView_TituloPizzaVegetariana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -176,29 +172,29 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView_pizzaQueso"
+            android:id="@+id/imageView_pizzaVegetariana"
             android:layout_width="150dp"
             android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaQueso"
+            app:layout_constraintEnd_toStartOf="@id/cantidad_PizzaVegetariana"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaQueso"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaVegetariana"
             app:srcCompat="@drawable/pizza3" />
 
         <Spinner
-            android:id="@+id/cantidad_PizzaQueso"
+            android:id="@+id/cantidad_PizzaVegetariana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:entries="@array/cantidad_pizza"
             android:minWidth="50sp"
             android:minHeight="50sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/textView_PrecioQueso"
-            app:layout_constraintStart_toEndOf="@id/imageView_pizzaQueso"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaQueso" />
+            app:layout_constraintEnd_toStartOf="@id/textView_PrecioVegetariana"
+            app:layout_constraintStart_toEndOf="@id/imageView_pizzaVegetariana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaVegetariana" />
 
         <TextView
-            android:id="@+id/textView_PrecioQueso"
+            android:id="@+id/textView_PrecioVegetariana"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/louis_george_rg"
@@ -207,46 +203,31 @@
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaQueso"
-            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaQueso" />
+            app:layout_constraintStart_toEndOf="@id/cantidad_PizzaVegetariana"
+            app:layout_constraintTop_toBottomOf="@id/textView_TituloPizzaVegetariana" />
     </android.support.constraint.ConstraintLayout>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
         android:layout_weight="1"
         android:background="@drawable/rounded_button"
         android:fontFamily="@font/louis_george_rg"
+        android:onClick="redirectConfirma"
         android:text="@string/BotonOrdenar"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/constraint_PizzaQueso" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.18"
-        app:layout_constraintGuide_begin="658dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="379dp"
-        android:background="@drawable/rounded_button_propina"
-        android:contentDescription="@string/txt_saved"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/left24px"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        app:layout_constraintGuide_percent="0.18331054" />
 
 </android.support.constraint.ConstraintLayout>

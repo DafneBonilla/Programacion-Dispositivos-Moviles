@@ -59,7 +59,7 @@
     <string name="app_name">Pizza Planet</string>
     <string name="bt_actionbar_login">Iniciar Sesión</string>
     <string name="bt_actionbar_register">Registrarse</string>
-    <string name="bt_drawer_cart">Carrito</string>
+    <string name="bt_drawer_cart">Pedidos</string>
     <string name="bt_drawer_login">Iniciar Sesión</string>
     <string name="bt_drawer_menu">Menú</string>
     <string name="bt_tip10">MX$10.00</string>

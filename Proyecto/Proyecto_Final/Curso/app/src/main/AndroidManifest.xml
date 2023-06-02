@@ -16,6 +16,10 @@
             android:exported="false">
         </activity>
         <activity
+            android:name=".MainActivityDrawer"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".Confirmacion"
             android:exported="false" />
         <activity
@@ -36,7 +40,6 @@
         <activity
             android:name=".Login"
             android:exported="false" />
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

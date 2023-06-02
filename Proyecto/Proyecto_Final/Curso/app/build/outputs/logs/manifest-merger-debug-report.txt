@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [com.android.databinding:viewbinding:8.0.2] C:\Users\dafne\.gradle\caches\transforms-3\5e01bab49cfea4f8ead461781eb78488\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dfbbfef6721b7fde195be70fc5c67b46\transformed\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -40,27 +40,27 @@ MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dafne\.gradle\cac
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\33e7785adff4f2f376189e68fc077cbe\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\9fc2d5d52bf893bfad1c1fb17b888a36\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\dce00f9d154866288b53bdb3705ea6aa\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:5:5-43:19
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:5:5-46:19
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\dafne\.gradle\caches\transforms-3\3be7da04de2ebb89841f984c4e811a63\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\dafne\.gradle\caches\transforms-3\eab1ce24113abdaa942dbb3f2ea0fcc5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
@@ -93,52 +93,58 @@ ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto
 		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:15:13-41
-activity#com.example.curso.Confirmacion
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:18:9-20:40
+activity#com.example.curso.MainActivityDrawer
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:18:9-21:20
 	android:exported
 		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:19:13-47
+activity#com.example.curso.Confirmacion
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:23:13-41
 activity#com.example.curso.ActionBarTest
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:21:9-29:20
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:exported
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:22:13-42
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:26:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:31:27-74
 activity#com.example.curso.Comanda
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:30:9-32:39
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:34:9-36:39
 	android:exported
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:35:13-36
 activity#com.example.curso.Register
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:34:13-37
-activity#com.example.curso.Login
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:36:9-38:40
-	android:exported
 		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:38:13-37
+activity#com.example.curso.Login
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:37:13-34
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:41:13-34
 meta-data#preloaded_fonts
-ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:40:9-42:57
+ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:43:9-45:57
 	android:resource
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:42:13-54
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:45:13-54
 	android:name
-		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:41:13-43
+		ADDED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:44:13-43
 uses-sdk
 INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml

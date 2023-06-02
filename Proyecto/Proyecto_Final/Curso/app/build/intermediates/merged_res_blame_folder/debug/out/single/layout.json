@@ -24,12 +24,12 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_container.xml"
     },
     {
-        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_register.xml",
-        "source": "com.example.curso.app-main-18:/layout/activity_register.xml"
-    },
-    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_privacy.xml",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_privacy.xml"
+    },
+    {
+        "merged": "com.example.curso.app-mergeDebugResources-15:/layout/activity_menu.xml",
+        "source": "com.example.curso.app-main-18:/layout/activity_menu.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_register.xml",
@@ -40,11 +40,11 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_about_us.xml"
     },
     {
-        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\navigation_drawer.xml",
-        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\navigation_drawer.xml"
-    },
-    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\activity_menu.xml",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-mergeDebugResources-15:\\layout\\navigation_drawer.xml",
+        "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\navigation_drawer.xml"
     }
 ]

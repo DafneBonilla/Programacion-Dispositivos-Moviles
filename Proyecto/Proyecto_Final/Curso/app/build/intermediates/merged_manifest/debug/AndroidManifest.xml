@@ -24,6 +24,10 @@
             android:exported="false" >
         </activity>
         <activity
+            android:name="com.example.curso.MainActivityDrawer"
+            android:exported="false" >
+        </activity>
+        <activity
             android:name="com.example.curso.Confirmacion"
             android:exported="false" />
         <activity
