@@ -59,10 +59,10 @@ public class Register extends AppCompatActivity {
                 Toast.makeText(this,"¡Registro creado!", Toast.LENGTH_SHORT).show();
                 this.redirect("user",user);
             }else{
-                Toast.makeText(this,"Alerta: No se creo la cuenta.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Alerta: No pudo crear la cuenta.", Toast.LENGTH_SHORT).show();
             }
         }else{
-            Toast.makeText(this,"Alerta: La información ingresada es invalida.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Alerta: La información ingresada es inválida.", Toast.LENGTH_SHORT).show();
         }
     }
 

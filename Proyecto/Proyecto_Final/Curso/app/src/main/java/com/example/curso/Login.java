@@ -54,16 +54,16 @@ public class Login extends AppCompatActivity {
         if (this.verify_inputs(e,p)) {
             Usuario user = this.model_user.select(e,p);
             if(user != null){
-                Toast.makeText(this, user.getNombre()+" ha iniciado sesion.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, user.getNombre()+" ha iniciado sesión.", Toast.LENGTH_SHORT).show();
                 int id = user.getId();
                 //System.out.println("Se actualizo el registro="+this.model_user.update(id,"Pepe","nuevo@gmail.com", "123456789"));
                 this.redirect("user", user);
                 //System.out.println("Se elimino correctamente= "+this.model_user.delete(user.getId()));
             }else{
-                Toast.makeText(this, "Alerta: No se encontro el usuario.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Alerta: No se encontró el usuario.", Toast.LENGTH_SHORT).show();
             }
         } else {
-            Toast.makeText(this, "Alerta: La información ingresada es invalida.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Alerta: La información ingresada es inválida.", Toast.LENGTH_SHORT).show();
         }
     }
 
