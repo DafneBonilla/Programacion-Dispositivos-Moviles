@@ -11,7 +11,7 @@
 9-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:5:5-46:19
+11-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:5:5-49:19
 12        android:allowBackup="true"
 12-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
@@ -85,13 +85,19 @@
 49-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:41:13-34
 50            android:exported="false" />
 50-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:42:13-37
-51
-52        <meta-data
-52-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:43:9-45:57
-53            android:name="preloaded_fonts"
-53-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:44:13-43
-54            android:resource="@array/preloaded_fonts" />
-54-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:45:13-54
-55    </application>
-56
-57</manifest>
+51        <activity
+51-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:43:9-45:40
+52            android:name="com.example.curso.Privacy"
+52-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:44:13-36
+53            android:exported="false" />
+53-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:45:13-37
+54
+55        <meta-data
+55-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:46:9-48:57
+56            android:name="preloaded_fonts"
+56-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:47:13-43
+57            android:resource="@array/preloaded_fonts" />
+57-->C:\Users\dafne\Universidad\Programacion-Dispositivos-Moviles\Proyecto\Proyecto_Final\Curso\app\src\main\AndroidManifest.xml:48:13-54
+58    </application>
+59
+60</manifest>

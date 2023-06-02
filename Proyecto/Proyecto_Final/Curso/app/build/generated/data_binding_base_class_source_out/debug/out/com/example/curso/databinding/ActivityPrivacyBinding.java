@@ -20,11 +20,20 @@ public final class ActivityPrivacyBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textView2;
+  public final TextView Copyright;
 
-  private ActivityPrivacyBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView2) {
+  @NonNull
+  public final TextView Politics;
+
+  @NonNull
+  public final TextView Tittle;
+
+  private ActivityPrivacyBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Copyright,
+      @NonNull TextView Politics, @NonNull TextView Tittle) {
     this.rootView = rootView;
-    this.textView2 = textView2;
+    this.Copyright = Copyright;
+    this.Politics = Politics;
+    this.Tittle = Tittle;
   }
 
   @Override
@@ -54,13 +63,25 @@ public final class ActivityPrivacyBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.Copyright;
+      TextView Copyright = ViewBindings.findChildViewById(rootView, id);
+      if (Copyright == null) {
         break missingId;
       }
 
-      return new ActivityPrivacyBinding((ConstraintLayout) rootView, textView2);
+      id = R.id.Politics;
+      TextView Politics = ViewBindings.findChildViewById(rootView, id);
+      if (Politics == null) {
+        break missingId;
+      }
+
+      id = R.id.Tittle;
+      TextView Tittle = ViewBindings.findChildViewById(rootView, id);
+      if (Tittle == null) {
+        break missingId;
+      }
+
+      return new ActivityPrivacyBinding((ConstraintLayout) rootView, Copyright, Politics, Tittle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

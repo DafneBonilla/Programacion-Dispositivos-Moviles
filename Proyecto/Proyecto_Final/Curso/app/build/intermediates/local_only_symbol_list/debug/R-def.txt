@@ -38,6 +38,8 @@ drawable ic_register
 drawable infocircle24px
 drawable left24px
 drawable login_app
+drawable logo_fac
+drawable logo_fac1
 drawable logo_main
 drawable main_app
 drawable main_app2
@@ -65,9 +67,11 @@ font pizzaria
 font roboto
 font roboto_bold
 font roboto_thin
+id Copyright
 id FirstFragment
+id Politics
 id SecondFragment
-id aboutUs
+id Tittle
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id back
@@ -84,7 +88,6 @@ id button_register
 id cantidad_PizzaItaliana
 id cantidad_PizzaSalami
 id cantidad_PizzaVegetariana
-id cart
 id constraint_PizzaItalina
 id constraint_PizzaSalami
 id constraint_PizzaVegetariana
@@ -189,6 +192,7 @@ string bt_tip15
 string bt_tip20
 string bt_tipOther
 string close
+string copyright
 string first_fragment_label
 string hello_first_fragment
 string hello_second_fragment
@@ -203,6 +207,7 @@ string navigation_drawer_close
 string navigation_drawer_open
 string next
 string open
+string politics
 string previous
 string privacy
 string question

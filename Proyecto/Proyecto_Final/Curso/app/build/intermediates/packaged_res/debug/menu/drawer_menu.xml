@@ -7,11 +7,6 @@
                 android:icon="@drawable/ic_lock_open"
                 android:title="@string/privacy">
             </item>
-            <item
-                android:id="@+id/aboutUs"
-                android:icon="@drawable/ic_question_mark"
-                android:title="@string/question">
-            </item>
         </menu>
     </item>
 </menu>

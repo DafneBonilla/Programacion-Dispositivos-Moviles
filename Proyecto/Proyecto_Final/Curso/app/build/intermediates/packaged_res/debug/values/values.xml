@@ -67,6 +67,7 @@
     <string name="bt_tip20">MX$20.00</string>
     <string name="bt_tipOther">Otro</string>
     <string name="close">close</string>
+    <string name="copyright">© 2023 Facultad de Ciencias - UNAM</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
@@ -81,6 +82,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="next">Next</string>
     <string name="open">open</string>
+    <string name="politics">Facultad de Ciencias built the Pizza Planet app as a Free app. This SERVICE is provided by Facultad de Ciencias at no cost and is intended for use as is.
+        If you choose to use our service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+        The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Pizza Planet unless otherwise defined in this Privacy Policy.</string>
     <string name="previous">Previous</string>
     <string name="privacy">Privacy &amp; Terms</string>
     <string name="question">About Us</string>

@@ -28,12 +28,20 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\ic_email.xml"
     },
     {
+        "merged": "com.example.curso.app-merged_res-16:/layout_activity_privacy.xml.flat",
+        "source": "com.example.curso.app-main-18:/layout/activity_privacy.xml"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\navigation\\mobile_navigation.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\layout_activity_menu.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "com.example.curso.app-merged_res-16:/drawable_logo_fac.png.flat",
+        "source": "com.example.curso.app-main-18:/drawable/logo_fac.png"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_pizza3.png.flat",
@@ -156,6 +164,10 @@
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\drawable\\menu_drawer_main.jpg"
     },
     {
+        "merged": "com.example.curso.app-merged_res-16:/drawable_logo_fac1.png.flat",
+        "source": "com.example.curso.app-main-18:/drawable/logo_fac1.png"
+    },
+    {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\font_roboto.xml.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\font\\roboto.xml"
     },
@@ -178,10 +190,6 @@
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-main-18:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.curso.app-merged_res-16:/layout_activity_menu.xml.flat",
-        "source": "com.example.curso.app-main-18:/layout/activity_menu.xml"
     },
     {
         "merged": "C:\\Users\\dafne\\.gradle\\daemon\\8.0\\com.example.curso.app-merged_res-16:\\drawable_pizza1.png.flat",

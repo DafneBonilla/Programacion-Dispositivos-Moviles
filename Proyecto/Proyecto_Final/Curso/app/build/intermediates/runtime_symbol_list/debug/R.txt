@@ -1188,6 +1188,8 @@ int drawable ic_register 0x7f080075
 int drawable infocircle24px 0x7f080076
 int drawable left24px 0x7f080077
 int drawable login_app 0x7f080078
+int drawable logo_fac 0x7f08009a
+int drawable logo_fac1 0x7f08009b
 int drawable logo_main 0x7f080079
 int drawable main_app 0x7f08007a
 int drawable main_app2 0x7f08007b
@@ -1234,17 +1236,19 @@ int font roboto_bold 0x7f090009
 int font roboto_thin 0x7f09000a
 int id ALT 0x7f0a0000
 int id CTRL 0x7f0a0001
+int id Copyright 0x7f0a016f
 int id FUNCTION 0x7f0a0002
 int id FirstFragment 0x7f0a0003
 int id META 0x7f0a0004
 int id NO_DEBUG 0x7f0a0005
+int id Politics 0x7f0a0170
 int id SHIFT 0x7f0a0006
 int id SHOW_ALL 0x7f0a0007
 int id SHOW_PATH 0x7f0a0008
 int id SHOW_PROGRESS 0x7f0a0009
 int id SYM 0x7f0a000a
 int id SecondFragment 0x7f0a000b
-int id aboutUs 0x7f0a000c
+int id Tittle 0x7f0a0171
 int id accelerate 0x7f0a000d
 int id action_FirstFragment_to_SecondFragment 0x7f0a000e
 int id action_SecondFragment_to_FirstFragment 0x7f0a000f
@@ -1303,7 +1307,6 @@ int id cache_measures 0x7f0a0043
 int id cantidad_PizzaItaliana 0x7f0a0160
 int id cantidad_PizzaSalami 0x7f0a0161
 int id cantidad_PizzaVegetariana 0x7f0a0162
-int id cart 0x7f0a0047
 int id center 0x7f0a0048
 int id center_horizontal 0x7f0a0049
 int id center_vertical 0x7f0a004a
@@ -1737,6 +1740,7 @@ int string bt_tipOther 0x7f11003b
 int string character_counter_content_description 0x7f11003c
 int string character_counter_pattern 0x7f11003d
 int string close 0x7f11003e
+int string copyright 0x7f110088
 int string fab_transformation_scrim_behavior 0x7f11003f
 int string fab_transformation_sheet_behavior 0x7f110040
 int string first_fragment_label 0x7f110041
@@ -1762,6 +1766,7 @@ int string path_password_eye 0x7f110054
 int string path_password_eye_mask_strike_through 0x7f110055
 int string path_password_eye_mask_visible 0x7f110056
 int string path_password_strike_through 0x7f110057
+int string politics 0x7f110089
 int string previous 0x7f110058
 int string privacy 0x7f110059
 int string question 0x7f11005a

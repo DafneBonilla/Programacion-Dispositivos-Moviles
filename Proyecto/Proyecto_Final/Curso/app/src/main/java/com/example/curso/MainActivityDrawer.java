@@ -60,12 +60,6 @@ public class MainActivityDrawer extends AppCompatActivity implements NavigationV
             fragmentTransaction.replace(R.id.container, new PrivacyMenuDrawer());
             fragmentTransaction.commit();
         }
-        if(menuItem.getItemId() == R.id.aboutUs) {
-            fragmentManager = getSupportFragmentManager();
-            fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.container, new AboutUsMenuDrawer());
-            fragmentTransaction.commit();
-        }
         return false;
     }
 }

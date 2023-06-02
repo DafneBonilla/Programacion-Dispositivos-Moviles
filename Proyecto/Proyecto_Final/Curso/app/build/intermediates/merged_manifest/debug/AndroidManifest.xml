@@ -48,6 +48,9 @@
         <activity
             android:name="com.example.curso.Login"
             android:exported="false" />
+        <activity
+            android:name="com.example.curso.Privacy"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

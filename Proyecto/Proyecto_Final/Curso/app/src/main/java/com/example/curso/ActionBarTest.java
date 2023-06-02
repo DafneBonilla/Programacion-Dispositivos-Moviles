@@ -41,8 +41,8 @@ public class ActionBarTest extends AppCompatActivity {
             startActivity(intent);
             return true;
         }
-        if(id ==  R.id.cart){
-            Intent intent =  new Intent(this, Confirmacion.class);
+        if(id ==  R.id.privacy){
+            Intent intent =  new Intent(this, Privacy.class);
             startActivity(intent);
             return true;
         }

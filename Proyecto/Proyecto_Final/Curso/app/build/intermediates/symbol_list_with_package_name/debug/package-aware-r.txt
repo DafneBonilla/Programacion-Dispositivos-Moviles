@@ -1189,6 +1189,8 @@ drawable ic_register
 drawable infocircle24px
 drawable left24px
 drawable login_app
+drawable logo_fac
+drawable logo_fac1
 drawable logo_main
 drawable main_app
 drawable main_app2
@@ -1235,17 +1237,19 @@ font roboto_bold
 font roboto_thin
 id ALT
 id CTRL
+id Copyright
 id FUNCTION
 id FirstFragment
 id META
 id NO_DEBUG
+id Politics
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SecondFragment
-id aboutUs
+id Tittle
 id accelerate
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
@@ -1304,7 +1308,6 @@ id cache_measures
 id cantidad_PizzaItaliana
 id cantidad_PizzaSalami
 id cantidad_PizzaVegetariana
-id cart
 id center
 id center_horizontal
 id center_vertical
@@ -1738,6 +1741,7 @@ string bt_tipOther
 string character_counter_content_description
 string character_counter_pattern
 string close
+string copyright
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
@@ -1763,6 +1767,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string politics
 string previous
 string privacy
 string question
