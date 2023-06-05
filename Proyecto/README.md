@@ -1,8 +1,5 @@
-# 💻 Prácticas </> 
+# 📱 Proyectos </> 
 
-### Prácticas realizadas durante el curso:
+### Proyecto realizado durante el curso:
 
-> - Práctica 01: Diseño de cajero automático
-> - Práctica 02: Rediseño de aajero automático
-> - Práctica 03: El futuro según microsoft
-> - Práctica 04: Breve cuestionario sobre los web services
+> - Proyecto Final: Diseño de app con bases de datos en SQL Lite
