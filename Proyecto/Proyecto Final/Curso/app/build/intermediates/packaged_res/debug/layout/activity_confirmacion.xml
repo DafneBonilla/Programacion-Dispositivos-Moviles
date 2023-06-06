@@ -9,421 +9,471 @@
     android:scrollbarSize="24sp"
     tools:context=".Confirmacion">
 
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95"/>
+
     <TextView
         android:id="@+id/txt_mipedido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_mipedido"
+        android:text="@string/txt_header_mipedido"
         android:textColor="#000000"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
-        android:id="@+id/txt_direccion"
-        android:layout_width="376dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="50dp"
-        android:drawableEnd="@drawable/right24px"
+        android:id="@+id/txt_headerSummaryOrder"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_direccion"
+        android:text="@string/txt_headerSummary"
         android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
         app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
         app:layout_constraintTop_toBottomOf="@+id/txt_mipedido"
         tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/txt_userinfo"
-        android:layout_width="wrap_content"
+        android:id="@+id/txt_summaryOrder"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_userinfo"
+        android:hint="@string/txt_orderSample"
+        android:inputType="text|textCapCharacters|textCapWords"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/txt_direccion"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
+        app:layout_constraintTop_toBottomOf="@+id/txt_headerSummaryOrder"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/checkbox_utensils"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/louis_george_rg"
+        android:text="@string/txt_utensils"
+        app:layout_constraintBottom_toTopOf="@id/txt_direccion"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
+        app:layout_constraintTop_toBottomOf="@id/txt_summaryOrder" />
+
+
+
+
+    <TextView
+        android:id="@+id/txt_direccion"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/louis_george_rg"
+        android:text="@string/txt_Header_direccion"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_utensils"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/etxt_userinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/louis_george_rg"
+        android:hint="@string/txt_userinfo"
+        android:inputType="text|textCapCharacters|textCapWords"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
         app:layout_constraintTop_toBottomOf="@+id/txt_direccion"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/txt_deriveryM"
-        android:layout_width="wrap_content"
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/container_paymentDetails"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_deliveryMethod"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_userinfo"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintTop_toBottomOf="@id/etxt_userinfo"
+        app:layout_constraintBottom_toTopOf="@id/container_paymentMethod">
 
-    <TextView
-        android:id="@+id/txt_entrega"
-        android:layout_width="151dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="36dp"
-        android:drawableEnd="@drawable/right24px"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_meetAtDoor"
-        android:textColor="#020202"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toEndOf="@+id/txt_deriveryM"
-        app:layout_constraintTop_toBottomOf="@+id/txt_direccion"
-        tools:ignore="TextSizeCheck" />
+        <TextView
+            android:id="@+id/txt_paymentsD"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_rg"
+            android:text="@string/txt_paymenthDetails"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/container_totalFood"/>
 
-    <TextView
-        android:id="@+id/txt_paymentmethod"
-        android:layout_width="115dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="25dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_paymentMethod"
-        android:textColor="#090909"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_cash"
-        app:layout_constraintHorizontal_bias="0.011"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_deriveryM"
-        tools:ignore="TextSizeCheck" />
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/container_totalFood"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_paymentsD"
+            app:layout_constraintBottom_toTopOf="@id/container_deliveryFee">
 
-    <TextView
-        android:id="@+id/txt_cash"
-        android:layout_width="82dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:drawableEnd="@drawable/right24px"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_cashMethod"
-        android:textColor="#070707"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_entrega"
-        tools:ignore="TextSizeCheck" />
+            <TextView
+                android:id="@+id/txt_itemTotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:text="@string/txt_itemTotal"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toStartOf="@id/txt_itemTotalV"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
-    <TextView
-        android:id="@+id/txt_utensils"
-        android:layout_width="375dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="25dp"
-        android:drawableEnd="@drawable/check24px"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_utensils"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_paymentmethod"
-        tools:ignore="TextSizeCheck" />
+            <TextView
+                android:id="@+id/txt_itemTotalV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:text="@string/txt_itemTotalValue"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textAlignment="textEnd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txt_itemTotal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/txt_tip"
-        android:layout_width="86dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="25dp"
-        android:drawableEnd="@drawable/infocircle24px"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_tip"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_utensils"
-        tools:ignore="TextSizeCheck" />
 
-    <TextView
-        android:id="@+id/txt_tipM"
-        android:layout_width="wrap_content"
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/container_deliveryFee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container_totalFood"
+            app:layout_constraintBottom_toTopOf="@id/container_planetCupones">
+
+            <TextView
+                android:id="@+id/txt_deliveryFee"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:text="@string/txt_deliveryFee"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toStartOf="@id/txt_deliveryFeeV"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/txt_deliveryFeeV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:text="@string/txt_deliveryFeeValue"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textAlignment="textEnd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txt_deliveryFee"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/container_planetCupones"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container_deliveryFee"
+            app:layout_constraintBottom_toTopOf="@id/container_tips">
+
+            <TextView
+                android:id="@+id/txt_coupons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:text="@string/txt_coupons"
+                android:textColor="#6A6A6A"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/txt_couponV"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+            <TextView
+                android:id="@+id/txt_couponV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_couponMessage"
+                android:textColor="#AEACAC"
+                android:textSize="10sp"
+                android:textAlignment="textEnd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txt_coupons"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/container_tips"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/container_planetCupones"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/txt_tip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:text="@string/txt_tip"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/container_tipsAmounts"
+                tools:ignore="TextSizeCheck" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/container_tipsAmounts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+                <Button
+                    android:id="@+id/button_tip10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/louis_george_rg"
+                    android:text="@string/bt_tip10"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/button_tip20"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="TextSizeCheck" />
+
+                <Button
+                    android:id="@+id/button_tip20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/louis_george_rg"
+                    android:text="@string/bt_tip20"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/button_tip30"
+                    app:layout_constraintStart_toEndOf="@id/button_tip10"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <Button
+                    android:id="@+id/button_tip30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/louis_george_rg"
+                    android:text="@string/bt_tip30"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/etxt_tipA"
+                    app:layout_constraintStart_toEndOf="@id/button_tip20"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <TextView
+                    android:id="@+id/etxt_tipA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button_propina"
+                    android:fontFamily="@font/louis_george_rg"
+                    android:hint="@string/bt_tipOther"
+                    android:textAlignment="textEnd"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/button_tip30"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/txt_tipM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/louis_george_rg"
+                android:drawableLeft="@drawable/infocircle24px"
+                android:text="@string/txt_tipMessage"
+                android:textColor="#4A4A4A"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/container_tipsAmounts"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/container_paymentMethod"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_tipMessage"
-        android:textColor="#4A4A4A"
-        android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.266"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_tip"
-        tools:ignore="SmallSp" />
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintTop_toBottomOf="@id/container_paymentDetails"
+        app:layout_constraintBottom_toTopOf="@id/container_totalAmount">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="80dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/rounded_button_propina"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/bt_tip10"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_tipM"
-        tools:ignore="TextSizeCheck" />
+        <TextView
+            android:id="@+id/txt_paymentmethod"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/louis_george_rg"
+            android:text="@string/txt_paymentMethod"
+            android:textColor="#090909"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/sp_paymentmethod"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_weight="2"/>
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="80dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="156dp"
-        android:background="@drawable/rounded_button_propina"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/bt_tip15"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.654"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_tipM"
-        tools:ignore="TextSizeCheck" />
+        <Spinner
+            android:id="@+id/sp_paymentmethod"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:entries="@array/metodo_pago"
+            android:minHeight="50sp"
+            android:minWidth="50sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/txt_paymentmethod"
+            app:layout_constraintHorizontal_weight="2"/>
+    </android.support.constraint.ConstraintLayout>
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="80dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/rounded_button_propina"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/bt_tip20"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.624"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_tipM"
-        tools:ignore="TextSizeCheck" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="80dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/rounded_button_propina"
-        android:drawableEnd="@drawable/edit_alt24px"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/bt_tipOther"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.908"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_tipM" />
 
-    <TextView
-        android:id="@+id/txt_paymentsD"
-        android:layout_width="wrap_content"
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/container_totalAmount"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_paymenthDetails"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        android:layout_marginBottom="20dp"
+        app:layout_constraintStart_toStartOf="@id/guidelineL"
+        app:layout_constraintEnd_toEndOf="@id/guidelineR"
+        app:layout_constraintTop_toBottomOf="@id/container_paymentMethod"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-    <TextView
-        android:id="@+id/txt_itemTotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_itemTotal"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_paymentsD"
-        tools:ignore="TextContrastCheck" />
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_rg"
+            android:text="@string/txt_Total"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/txt_totalValue"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/txt_saved" />
+        <TextView
+            android:id="@+id/txt_totalValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_rg"
+            android:text="@string/txt_TotalValue"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textAlignment="textEnd"
+            app:layout_constraintStart_toEndOf="@id/txt_total"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/txt_saved"/>
 
-    <TextView
-        android:id="@+id/txt_itemTotalV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_itemTotalValue"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_paymentsD" />
+        <TextView
+            android:id="@+id/txt_saved"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/louis_george_rg"
+            android:text="@string/txt_saved"
+            android:textColor="@color/rounded_button_color"
+            android:textSize="16sp"
+            android:textAlignment="textEnd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_totalValue"
+            app:layout_constraintBottom_toTopOf="@id/button_Confirmar"
+            tools:ignore="TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txt_deliveryFee"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_deliveryFee"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_itemTotal"
-        tools:ignore="TextContrastCheck" />
+        <Button
+            android:id="@+id/button_Confirmar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/louis_george_rg"
+            android:text="@string/txt_confirmar"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_saved"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
-    <TextView
-        android:id="@+id/txt_deliveryFeeV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_deliveryFeeValue"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_itemTotalV" />
+    </android.support.constraint.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/txt_couponV"
-        android:layout_width="212dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="20dp"
-        android:drawableEnd="@drawable/right24px"
-        android:text="@string/txt_couponMessage"
-        android:textColor="#AEACAC"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_deliveryFeeV"
-        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txt_coupons"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_coupons"
-        android:textColor="#6A6A6A"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_deliveryFee" />
 
-    <TextView
-        android:id="@+id/txt_total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_Total"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_coupons" />
 
-    <TextView
-        android:id="@+id/txt_totalValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_TotalValue"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_couponV" />
 
-    <TextView
-        android:id="@+id/txt_saved"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_saved"
-        android:textColor="@color/rounded_button_color"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_totalValue"
-        tools:ignore="TextContrastCheck" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/rounded_button"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_confirmar"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_saved"
-        tools:ignore="TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/txt_totalNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_TotalValue"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_total" />
-
-    <TextView
-        android:id="@+id/txt_savedNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/louis_george_rg"
-        android:text="@string/txt_saved"
-        android:textColor="@color/rounded_button_color"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_totalNext"
-        tools:ignore="TextContrastCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="88dp"
-        android:background="@drawable/rounded_button_propina"
-        android:contentDescription="@string/txt_saved"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toStartOf="@+id/txt_mipedido"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/left24px"
-        tools:ignore="DuplicateSpeakableTextCheck" />
 
 </android.support.constraint.ConstraintLayout>

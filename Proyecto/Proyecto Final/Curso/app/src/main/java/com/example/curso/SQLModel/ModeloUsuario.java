@@ -21,8 +21,10 @@ public class ModeloUsuario {
     private AdminSQL admin;
     private SQLiteDatabase db;
     /* Puede agregar mas queries */
-    private final String query_get_user = "SELECT codigo, nombre, correo, contrasena FROM usuario WHERE (correo = ? and contrasena = ?);";
-    private final String query_get_user_id = "SELECT codigo, nombre, correo, contrasena FROM usuario WHERE (codigo = ?);";
+    private final String query_get_user = "SELECT codigo, nombre, correo, contrasena, direccion FROM usuario WHERE (correo = ? and contrasena = ?);";
+    private final String query_get_user_id = "SELECT codigo, nombre, correo, contrasena, direccion FROM usuario WHERE (codigo = ?);";
+
+    //private final String query_update_user_adress = "UPDATE usuario SET direccion = ? WHERE (codigo = ?);";
 
     /**
      * Metodo contructor de clase.
@@ -134,12 +136,13 @@ public class ModeloUsuario {
      * @param password nueva contraseña del usuario.
      * @return boolean
      */
-    public boolean update(int id, String name, String email, String password){
+    public boolean update(int id, String name, String email, String password, String adress){
         try {
             ContentValues regist = new ContentValues();
             regist.put("nombre", name);
             regist.put("correo", email);
             regist.put("contrasena", password);
+            regist.put("direccion", adress);
             int updated_rows = this.db.update(this.table_user_name, regist, "codigo=" + id, null);
             //this.db.close(); Esta linea provoca una excepcion (java.lang.IllegalStateException)
             if(updated_rows==1) return true;
@@ -149,6 +152,32 @@ public class ModeloUsuario {
             return false;
         }
     }
+
+    /**
+     * Metodo para actualizar el registro de un usuario.
+     * Nota: Retorna true si la actualizacion es valida, false en otro caso.
+     * @param user objeto usuario a ser acutalizado.
+     * @return boolean
+     */
+    public boolean update(Usuario user){
+        try {
+            ContentValues regist = new ContentValues();
+            regist.put("nombre", user.getNombre());
+            regist.put("correo", user.getCorreo());
+            regist.put("contrasena", user.getContrasena());
+            regist.put("direccion", user.getDireccion());
+            int updated_rows = this.db.update(this.table_user_name, regist, "codigo=" + user.getId(), null);
+            //this.db.close(); Esta linea provoca una excepcion (java.lang.IllegalStateException)
+            if(updated_rows==1) return true;
+            else return false;
+        }catch (Exception e){
+            System.out.println("ERROR en UPDATE: "+e);
+            return false;
+        }
+    }
+
+
+
 
     /**
      * Metodo para eliminar todos los registros de la tabla Usuario.
@@ -181,6 +210,7 @@ public class ModeloUsuario {
         String name_user = row.getString(1);
         String email_user = row.getString(2);
         String password_user = row.getString(3);
-        return new Usuario(id_user, name_user, email_user, password_user);
+        String adress_user = row.getString(4);
+        return new Usuario(id_user, name_user, email_user, password_user, adress_user);
     }
 }

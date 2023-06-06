@@ -11,7 +11,7 @@ import java.io.Serializable;
  * @version 1.0
  */
 public class Usuario implements Serializable {
-    private String nombre, correo, contrasena, numero, direccion;
+    private String nombre, correo, contrasena, direccion;
     private int id;
 
     /**
@@ -20,14 +20,12 @@ public class Usuario implements Serializable {
      * @param nombre nombre del usuario.
      * @param correo correo del usuario.
      * @param contrasena contraseña del usuario.
-     * @param numero numero del usuario.
      * @param direccion direccion del usuario.
      */
-    public Usuario(int id, String nombre, String correo, String contrasena, String numero, String direccion) {
+    public Usuario(int id, String nombre, String correo, String contrasena, String direccion) {
         this.nombre = nombre;
         this.correo = correo;
         this.contrasena = contrasena;
-        this.numero = numero;
         this.direccion = direccion;
         this.id = id;
     }
@@ -107,22 +105,6 @@ public class Usuario implements Serializable {
     }
 
     /**
-     * Metodo get de atributo numero.
-     * @return String
-     */
-    public String getNumero() {
-        return numero;
-    }
-
-    /**
-     * Metodo set para atributo numero.
-     * @param numero numero del usuario.
-     */
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-
-    /**
      * Metodo get de atributo direccion.
      * @return String
      */
@@ -164,7 +146,6 @@ public class Usuario implements Serializable {
                 "nombre='" + nombre + '\'' +
                 ", correo='" + correo + '\'' +
                 ", contrasena='" + contrasena + '\'' +
-                ", numero='" + numero + '\'' +
                 ", direccion='" + direccion + '\'' +
                 ", id=" + id +
                 '}';

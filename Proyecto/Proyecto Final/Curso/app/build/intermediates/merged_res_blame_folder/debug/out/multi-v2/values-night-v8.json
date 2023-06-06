@@ -4,7 +4,7 @@
             "outputFile": "com.example.curso.app-mergeDebugResources-14:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dafne\\.gradle\\caches\\transforms-3\\176e2cb87ca60634b7f06bd4bd6aa64f\\transformed\\appcompat-v7-28.0.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "/home/riich/.gradle/caches/transforms-3/176e2cb87ca60634b7f06bd4bd6aa64f/transformed/appcompat-v7-28.0.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -14,14 +14,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dafne\\Universidad\\Programacion-Dispositivos-Moviles\\Proyecto\\Proyecto_Final\\Curso\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "/home/riich/CC/9_ProgramacionDispositivosMoviles/proy/Programacion-Dispositivos-Moviles/Proyecto/Proyecto_Final/Curso/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "102",
+                        "startOffsets": "100",
                         "endLines": "8",
                         "endColumns": "12",
-                        "endOffsets": "452"
+                        "endOffsets": "444"
                     },
                     "to": {
                         "startLines": "9",

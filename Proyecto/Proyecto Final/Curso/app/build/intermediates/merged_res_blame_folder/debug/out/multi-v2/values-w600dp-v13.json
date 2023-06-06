@@ -4,13 +4,13 @@
             "outputFile": "com.example.curso.app-mergeDebugResources-14:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dafne\\Universidad\\Programacion-Dispositivos-Moviles\\Proyecto\\Proyecto_Final\\Curso\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "/home/riich/CC/9_ProgramacionDispositivosMoviles/proy/Programacion-Dispositivos-Moviles/Proyecto/Proyecto_Final/Curso/app/src/main/res/values-w600dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "17",
+                        "startOffsets": "16",
                         "endColumns": "41",
-                        "endOffsets": "54"
+                        "endOffsets": "53"
                     },
                     "to": {
                         "startLines": "2",

@@ -4,13 +4,16 @@ package com.example.curso.databinding;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
+import android.support.constraint.Guideline;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.viewbinding.ViewBinding;
 import android.viewbinding.ViewBindings;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import com.example.curso.R;
 import java.lang.NullPointerException;
@@ -25,25 +28,58 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
   public final ConstraintLayout back;
 
   @NonNull
-  public final Button button2;
+  public final Button buttonConfirmar;
 
   @NonNull
-  public final Button button3;
+  public final Button buttonTip10;
 
   @NonNull
-  public final Button button4;
+  public final Button buttonTip20;
 
   @NonNull
-  public final Button button5;
+  public final Button buttonTip30;
 
   @NonNull
-  public final Button button6;
+  public final CheckBox checkboxUtensils;
 
   @NonNull
-  public final ImageButton imageButton;
+  public final ConstraintLayout containerDeliveryFee;
 
   @NonNull
-  public final TextView txtCash;
+  public final ConstraintLayout containerPaymentDetails;
+
+  @NonNull
+  public final ConstraintLayout containerPaymentMethod;
+
+  @NonNull
+  public final ConstraintLayout containerPlanetCupones;
+
+  @NonNull
+  public final ConstraintLayout containerTips;
+
+  @NonNull
+  public final ConstraintLayout containerTipsAmounts;
+
+  @NonNull
+  public final ConstraintLayout containerTotalAmount;
+
+  @NonNull
+  public final ConstraintLayout containerTotalFood;
+
+  @NonNull
+  public final TextView etxtTipA;
+
+  @NonNull
+  public final EditText etxtUserinfo;
+
+  @NonNull
+  public final Guideline guidelineL;
+
+  @NonNull
+  public final Guideline guidelineR;
+
+  @NonNull
+  public final Spinner spPaymentmethod;
 
   @NonNull
   public final TextView txtCouponV;
@@ -58,13 +94,10 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
   public final TextView txtDeliveryFeeV;
 
   @NonNull
-  public final TextView txtDeriveryM;
-
-  @NonNull
   public final TextView txtDireccion;
 
   @NonNull
-  public final TextView txtEntrega;
+  public final TextView txtHeaderSummaryOrder;
 
   @NonNull
   public final TextView txtItemTotal;
@@ -85,7 +118,7 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
   public final TextView txtSaved;
 
   @NonNull
-  public final TextView txtSavedNext;
+  public final TextView txtSummaryOrder;
 
   @NonNull
   public final TextView txtTip;
@@ -97,60 +130,63 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
   public final TextView txtTotal;
 
   @NonNull
-  public final TextView txtTotalNext;
-
-  @NonNull
   public final TextView txtTotalValue;
 
-  @NonNull
-  public final TextView txtUserinfo;
-
-  @NonNull
-  public final TextView txtUtensils;
-
   private ActivityConfirmacionBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout back, @NonNull Button button2, @NonNull Button button3,
-      @NonNull Button button4, @NonNull Button button5, @NonNull Button button6,
-      @NonNull ImageButton imageButton, @NonNull TextView txtCash, @NonNull TextView txtCouponV,
+      @NonNull ConstraintLayout back, @NonNull Button buttonConfirmar, @NonNull Button buttonTip10,
+      @NonNull Button buttonTip20, @NonNull Button buttonTip30, @NonNull CheckBox checkboxUtensils,
+      @NonNull ConstraintLayout containerDeliveryFee,
+      @NonNull ConstraintLayout containerPaymentDetails,
+      @NonNull ConstraintLayout containerPaymentMethod,
+      @NonNull ConstraintLayout containerPlanetCupones, @NonNull ConstraintLayout containerTips,
+      @NonNull ConstraintLayout containerTipsAmounts,
+      @NonNull ConstraintLayout containerTotalAmount, @NonNull ConstraintLayout containerTotalFood,
+      @NonNull TextView etxtTipA, @NonNull EditText etxtUserinfo, @NonNull Guideline guidelineL,
+      @NonNull Guideline guidelineR, @NonNull Spinner spPaymentmethod, @NonNull TextView txtCouponV,
       @NonNull TextView txtCoupons, @NonNull TextView txtDeliveryFee,
-      @NonNull TextView txtDeliveryFeeV, @NonNull TextView txtDeriveryM,
-      @NonNull TextView txtDireccion, @NonNull TextView txtEntrega, @NonNull TextView txtItemTotal,
+      @NonNull TextView txtDeliveryFeeV, @NonNull TextView txtDireccion,
+      @NonNull TextView txtHeaderSummaryOrder, @NonNull TextView txtItemTotal,
       @NonNull TextView txtItemTotalV, @NonNull TextView txtMipedido,
       @NonNull TextView txtPaymentmethod, @NonNull TextView txtPaymentsD,
-      @NonNull TextView txtSaved, @NonNull TextView txtSavedNext, @NonNull TextView txtTip,
-      @NonNull TextView txtTipM, @NonNull TextView txtTotal, @NonNull TextView txtTotalNext,
-      @NonNull TextView txtTotalValue, @NonNull TextView txtUserinfo,
-      @NonNull TextView txtUtensils) {
+      @NonNull TextView txtSaved, @NonNull TextView txtSummaryOrder, @NonNull TextView txtTip,
+      @NonNull TextView txtTipM, @NonNull TextView txtTotal, @NonNull TextView txtTotalValue) {
     this.rootView = rootView;
     this.back = back;
-    this.button2 = button2;
-    this.button3 = button3;
-    this.button4 = button4;
-    this.button5 = button5;
-    this.button6 = button6;
-    this.imageButton = imageButton;
-    this.txtCash = txtCash;
+    this.buttonConfirmar = buttonConfirmar;
+    this.buttonTip10 = buttonTip10;
+    this.buttonTip20 = buttonTip20;
+    this.buttonTip30 = buttonTip30;
+    this.checkboxUtensils = checkboxUtensils;
+    this.containerDeliveryFee = containerDeliveryFee;
+    this.containerPaymentDetails = containerPaymentDetails;
+    this.containerPaymentMethod = containerPaymentMethod;
+    this.containerPlanetCupones = containerPlanetCupones;
+    this.containerTips = containerTips;
+    this.containerTipsAmounts = containerTipsAmounts;
+    this.containerTotalAmount = containerTotalAmount;
+    this.containerTotalFood = containerTotalFood;
+    this.etxtTipA = etxtTipA;
+    this.etxtUserinfo = etxtUserinfo;
+    this.guidelineL = guidelineL;
+    this.guidelineR = guidelineR;
+    this.spPaymentmethod = spPaymentmethod;
     this.txtCouponV = txtCouponV;
     this.txtCoupons = txtCoupons;
     this.txtDeliveryFee = txtDeliveryFee;
     this.txtDeliveryFeeV = txtDeliveryFeeV;
-    this.txtDeriveryM = txtDeriveryM;
     this.txtDireccion = txtDireccion;
-    this.txtEntrega = txtEntrega;
+    this.txtHeaderSummaryOrder = txtHeaderSummaryOrder;
     this.txtItemTotal = txtItemTotal;
     this.txtItemTotalV = txtItemTotalV;
     this.txtMipedido = txtMipedido;
     this.txtPaymentmethod = txtPaymentmethod;
     this.txtPaymentsD = txtPaymentsD;
     this.txtSaved = txtSaved;
-    this.txtSavedNext = txtSavedNext;
+    this.txtSummaryOrder = txtSummaryOrder;
     this.txtTip = txtTip;
     this.txtTipM = txtTipM;
     this.txtTotal = txtTotal;
-    this.txtTotalNext = txtTotalNext;
     this.txtTotalValue = txtTotalValue;
-    this.txtUserinfo = txtUserinfo;
-    this.txtUtensils = txtUtensils;
   }
 
   @Override
@@ -182,45 +218,111 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
     missingId: {
       ConstraintLayout back = (ConstraintLayout) rootView;
 
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.button_Confirmar;
+      Button buttonConfirmar = ViewBindings.findChildViewById(rootView, id);
+      if (buttonConfirmar == null) {
         break missingId;
       }
 
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.button_tip10;
+      Button buttonTip10 = ViewBindings.findChildViewById(rootView, id);
+      if (buttonTip10 == null) {
         break missingId;
       }
 
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.button_tip20;
+      Button buttonTip20 = ViewBindings.findChildViewById(rootView, id);
+      if (buttonTip20 == null) {
         break missingId;
       }
 
-      id = R.id.button5;
-      Button button5 = ViewBindings.findChildViewById(rootView, id);
-      if (button5 == null) {
+      id = R.id.button_tip30;
+      Button buttonTip30 = ViewBindings.findChildViewById(rootView, id);
+      if (buttonTip30 == null) {
         break missingId;
       }
 
-      id = R.id.button6;
-      Button button6 = ViewBindings.findChildViewById(rootView, id);
-      if (button6 == null) {
+      id = R.id.checkbox_utensils;
+      CheckBox checkboxUtensils = ViewBindings.findChildViewById(rootView, id);
+      if (checkboxUtensils == null) {
         break missingId;
       }
 
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
+      id = R.id.container_deliveryFee;
+      ConstraintLayout containerDeliveryFee = ViewBindings.findChildViewById(rootView, id);
+      if (containerDeliveryFee == null) {
         break missingId;
       }
 
-      id = R.id.txt_cash;
-      TextView txtCash = ViewBindings.findChildViewById(rootView, id);
-      if (txtCash == null) {
+      id = R.id.container_paymentDetails;
+      ConstraintLayout containerPaymentDetails = ViewBindings.findChildViewById(rootView, id);
+      if (containerPaymentDetails == null) {
+        break missingId;
+      }
+
+      id = R.id.container_paymentMethod;
+      ConstraintLayout containerPaymentMethod = ViewBindings.findChildViewById(rootView, id);
+      if (containerPaymentMethod == null) {
+        break missingId;
+      }
+
+      id = R.id.container_planetCupones;
+      ConstraintLayout containerPlanetCupones = ViewBindings.findChildViewById(rootView, id);
+      if (containerPlanetCupones == null) {
+        break missingId;
+      }
+
+      id = R.id.container_tips;
+      ConstraintLayout containerTips = ViewBindings.findChildViewById(rootView, id);
+      if (containerTips == null) {
+        break missingId;
+      }
+
+      id = R.id.container_tipsAmounts;
+      ConstraintLayout containerTipsAmounts = ViewBindings.findChildViewById(rootView, id);
+      if (containerTipsAmounts == null) {
+        break missingId;
+      }
+
+      id = R.id.container_totalAmount;
+      ConstraintLayout containerTotalAmount = ViewBindings.findChildViewById(rootView, id);
+      if (containerTotalAmount == null) {
+        break missingId;
+      }
+
+      id = R.id.container_totalFood;
+      ConstraintLayout containerTotalFood = ViewBindings.findChildViewById(rootView, id);
+      if (containerTotalFood == null) {
+        break missingId;
+      }
+
+      id = R.id.etxt_tipA;
+      TextView etxtTipA = ViewBindings.findChildViewById(rootView, id);
+      if (etxtTipA == null) {
+        break missingId;
+      }
+
+      id = R.id.etxt_userinfo;
+      EditText etxtUserinfo = ViewBindings.findChildViewById(rootView, id);
+      if (etxtUserinfo == null) {
+        break missingId;
+      }
+
+      id = R.id.guidelineL;
+      Guideline guidelineL = ViewBindings.findChildViewById(rootView, id);
+      if (guidelineL == null) {
+        break missingId;
+      }
+
+      id = R.id.guidelineR;
+      Guideline guidelineR = ViewBindings.findChildViewById(rootView, id);
+      if (guidelineR == null) {
+        break missingId;
+      }
+
+      id = R.id.sp_paymentmethod;
+      Spinner spPaymentmethod = ViewBindings.findChildViewById(rootView, id);
+      if (spPaymentmethod == null) {
         break missingId;
       }
 
@@ -248,21 +350,15 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_deriveryM;
-      TextView txtDeriveryM = ViewBindings.findChildViewById(rootView, id);
-      if (txtDeriveryM == null) {
-        break missingId;
-      }
-
       id = R.id.txt_direccion;
       TextView txtDireccion = ViewBindings.findChildViewById(rootView, id);
       if (txtDireccion == null) {
         break missingId;
       }
 
-      id = R.id.txt_entrega;
-      TextView txtEntrega = ViewBindings.findChildViewById(rootView, id);
-      if (txtEntrega == null) {
+      id = R.id.txt_headerSummaryOrder;
+      TextView txtHeaderSummaryOrder = ViewBindings.findChildViewById(rootView, id);
+      if (txtHeaderSummaryOrder == null) {
         break missingId;
       }
 
@@ -302,9 +398,9 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_savedNext;
-      TextView txtSavedNext = ViewBindings.findChildViewById(rootView, id);
-      if (txtSavedNext == null) {
+      id = R.id.txt_summaryOrder;
+      TextView txtSummaryOrder = ViewBindings.findChildViewById(rootView, id);
+      if (txtSummaryOrder == null) {
         break missingId;
       }
 
@@ -326,35 +422,20 @@ public final class ActivityConfirmacionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_totalNext;
-      TextView txtTotalNext = ViewBindings.findChildViewById(rootView, id);
-      if (txtTotalNext == null) {
-        break missingId;
-      }
-
       id = R.id.txt_totalValue;
       TextView txtTotalValue = ViewBindings.findChildViewById(rootView, id);
       if (txtTotalValue == null) {
         break missingId;
       }
 
-      id = R.id.txt_userinfo;
-      TextView txtUserinfo = ViewBindings.findChildViewById(rootView, id);
-      if (txtUserinfo == null) {
-        break missingId;
-      }
-
-      id = R.id.txt_utensils;
-      TextView txtUtensils = ViewBindings.findChildViewById(rootView, id);
-      if (txtUtensils == null) {
-        break missingId;
-      }
-
-      return new ActivityConfirmacionBinding((ConstraintLayout) rootView, back, button2, button3,
-          button4, button5, button6, imageButton, txtCash, txtCouponV, txtCoupons, txtDeliveryFee,
-          txtDeliveryFeeV, txtDeriveryM, txtDireccion, txtEntrega, txtItemTotal, txtItemTotalV,
-          txtMipedido, txtPaymentmethod, txtPaymentsD, txtSaved, txtSavedNext, txtTip, txtTipM,
-          txtTotal, txtTotalNext, txtTotalValue, txtUserinfo, txtUtensils);
+      return new ActivityConfirmacionBinding((ConstraintLayout) rootView, back, buttonConfirmar,
+          buttonTip10, buttonTip20, buttonTip30, checkboxUtensils, containerDeliveryFee,
+          containerPaymentDetails, containerPaymentMethod, containerPlanetCupones, containerTips,
+          containerTipsAmounts, containerTotalAmount, containerTotalFood, etxtTipA, etxtUserinfo,
+          guidelineL, guidelineR, spPaymentmethod, txtCouponV, txtCoupons, txtDeliveryFee,
+          txtDeliveryFeeV, txtDireccion, txtHeaderSummaryOrder, txtItemTotal, txtItemTotalV,
+          txtMipedido, txtPaymentmethod, txtPaymentsD, txtSaved, txtSummaryOrder, txtTip, txtTipM,
+          txtTotal, txtTotalValue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

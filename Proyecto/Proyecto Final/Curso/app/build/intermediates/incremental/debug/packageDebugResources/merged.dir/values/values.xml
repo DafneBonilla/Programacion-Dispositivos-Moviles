@@ -22,6 +22,10 @@
             MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
         </item>
     </string-array>
+    <string-array name="metodo_pago">
+        <item>Efectivo</item>
+        <item>TDD/TDC</item>
+    </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/archivo</item>
         <item>@font/asap</item>
@@ -62,10 +66,10 @@
     <string name="bt_drawer_cart">Pedidos</string>
     <string name="bt_drawer_login">Iniciar Sesión</string>
     <string name="bt_drawer_menu">Menú</string>
-    <string name="bt_tip10">MX$10.00</string>
-    <string name="bt_tip15">MX$15.00</string>
-    <string name="bt_tip20">MX$20.00</string>
-    <string name="bt_tipOther">Otro</string>
+    <string name="bt_tip10">$10</string>
+    <string name="bt_tip20">$20</string>
+    <string name="bt_tip30">$30</string>
+    <string name="bt_tipOther">MX$0.00</string>
     <string name="close">close</string>
     <string name="copyright">© 2023 Facultad de Ciencias - UNAM</string>
     <string name="first_fragment_label">First Fragment</string>
@@ -94,7 +98,8 @@
     <string name="support">Support</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_menu_inicio">MenuInicio</string>
-    <string name="txt_Total">Total</string>
+    <string name="txt_Header_direccion">Direccion de entrega:</string>
+    <string name="txt_Total">Total:</string>
     <string name="txt_TotalValue">MX$226.00</string>
     <string name="txt_aviso">Al iniciar sesión aceptas los términos y condiciones y políticas de privacidad.</string>
     <string name="txt_bienvenido_login">Bienvenido a Bordo</string>
@@ -108,7 +113,8 @@
     <string name="txt_deliveryFee">Tarifa de entrega</string>
     <string name="txt_deliveryFeeValue">MX$48.00</string>
     <string name="txt_deliveryMethod">Método de entrega</string>
-    <string name="txt_direccion">Investigación Científica, C.U., Coyoacán, 04510</string>
+    <string name="txt_headerSummary">Resumen de compra:</string>
+    <string name="txt_header_mipedido">Confirmar Pedido</string>
     <string name="txt_iniciar_sesion">Iniciar Sesión</string>
     <string name="txt_iniciar_sesion_button">Inicia Sesión </string>
     <string name="txt_inicio">Iniciar Sesión</string>
@@ -116,21 +122,21 @@
     <string name="txt_itemTotal">Total de artículos</string>
     <string name="txt_itemTotalValue">MX$178.00</string>
     <string name="txt_meetAtDoor">Entrega en puerta</string>
-    <string name="txt_mipedido">Enviar Pedido</string>
     <string name="txt_name">Nombre</string>
     <string name="txt_next">Siguiente</string>
     <string name="txt_olvidar_contraseña">¿Olvidó su contraseña?</string>
+    <string name="txt_orderSample">1\t\tPizza Italiana\t\t\t\t\t\t\t$150\n2\t\tPizzas Salami\t\t\t\t\t$200\n3\t\tPizzas Vegetarianas\t$250</string>
     <string name="txt_password">Contraseña</string>
-    <string name="txt_paymentMethod">Método de pago</string>
-    <string name="txt_paymenthDetails">Detalles de pago</string>
+    <string name="txt_paymentMethod">Método de pago:</string>
+    <string name="txt_paymenthDetails">Detalles de pago:</string>
     <string name="txt_registrarse">Registrarse</string>
     <string name="txt_registrarse_button">Regístrate</string>
     <string name="txt_registrarse_inicio_sesion">¿Aún no tienes una cuenta?</string>
     <string name="txt_saved">MX$178.00</string>
-    <string name="txt_tip">Propina</string>
+    <string name="txt_tip">Propina:</string>
     <string name="txt_tipMessage">Muestra tu apoyo con tu propina. Los mensajeros reciben el 100% de las propinas.</string>
-    <string name="txt_userinfo">Joel Arroyo  +5587675423</string>
-    <string name="txt_utensils">Cubiertos y popotes</string>
+    <string name="txt_userinfo">Calle ## Colonia, C.P.</string>
+    <string name="txt_utensils">Incluir catsup y salsa</string>
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">#3D3D3D</item>

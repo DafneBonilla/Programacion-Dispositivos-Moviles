@@ -24,7 +24,10 @@ public class AdminSQL extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase db) {
         //Podemos añadir más atributos
-        db.execSQL("create table usuario(codigo INTEGER PRIMARY KEY AUTOINCREMENT, nombre text, correo text, contrasena text)");
+        db.execSQL("create table usuario(codigo INTEGER PRIMARY KEY AUTOINCREMENT, nombre text, correo text, contrasena text, direccion text)");
+        db.execSQL("create table comanda(codigo INTEGER PRIMARY KEY AUTOINCREMENT, usuario INTEGER, comanda text, total INTEGER)");
+
+
     }
 
     /**
@@ -34,5 +37,9 @@ public class AdminSQL extends SQLiteOpenHelper{
      * @param newVersion Nueva version de la base.
      */
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {}
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("drop table comanda");
+        db.execSQL("drop table usuario");
+        onCreate(db);
+    }
 }
