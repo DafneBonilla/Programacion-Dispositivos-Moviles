@@ -39,6 +39,10 @@ Por otro lado, se creo la clase `AdminSQL` que extiende de *SQLiteOpenHelper*, e
 
 Por último, se implemento la clase `ModeloUsuario` tal que esta clase nos permite conectarnos con la base de datos por medio de los objetos `SQLiteDatabase` y `AdminSQL`. Esta clase tiene implementados algunos método, entre ellos su contructor, tal que, este solo recibe el contexto de aplicación. Esto permite conectarse con la base de datos desde cualquier parte de la aplicación. A su vez, se implementaron los métodos necesarios para representar las operaciones básicas de una base de datos, es decir: **Crear**, **Leer**, **Actualizar** y **Eliminar** *(CRUD)*. Además se incluyen métodos adicionales como: `drop_from()` que limpia la tabla `Usuario` de la base de datos, esto es importante para hacer pruebas. Cabe mencionar que el código ya se encuentra documentado, por lo que para entender más a detaller la implementación, le recomendamos leerla.
 
-**NOTA:** Cómo puede observar la conexión a la base de datos no se cierra después de cada operación. Pues dado que
-se puede establecer contacto con la base de datos desde cualquier punto de la aplicación, sí en un contexto se cerrara la conexción, entonces seguramente al intentar realizar una operación cualquiera `(CRUD)` la conexción ya habría sido cerrada. Por tanto, dado el alcance del proyecto, se opto por eliminar la clausura de la conexión. Somo concientes de las implicaciones de esta decisión, sin embargo, se consultó con los ayudantes, cuya opinión secundo nuestra implementación. La excepción que se arroja al cerrar la conexción es : 
+**NOTA:** Cómo puede observar la conexión a la base de datos no se cierra después de cada operación. Pues dado que,
+se puede establecer contacto con la base de datos desde cualquier punto de la aplicación, sí en un contexto se cerrara la conexión, entonces seguramente al intentar realizar una operación cualquiera `(CRUD)`, la misma arrojaría una excepción. 
+
+Por tanto, dado el alcance del proyecto, se opto por eliminar la clausura de la conexión. Somos concientes de las implicaciones de esta decisión. Sin embargo, se consultó con los ayudantes, cuya opinión secundo nuestra implementación. 
+
+La excepción que se arroja al cerrar la conexción es : 
 `java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed`.
